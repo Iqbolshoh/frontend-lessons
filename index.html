@@ -6,30 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lessons</title>
     <style>
-        a {
-            background-color: blue;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .lesson-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 350px;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .lesson-card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .lesson-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .lesson-card a {
+            background-color: #007bff;
             color: white;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 18px;
+            padding: 10px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
 
-            padding: 12px 55px;
-            border-radius: 11px;
-            margin: 20px;
+        .lesson-card a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 
 <body>
 
-    <div style="border: 1px solid black; width: 300px;">
-        <h2>lesson 1</h2>
+    <div class="lesson-card">
+        <h2>Lesson 1</h2>
         <p>Basic</p>
         <a href="./1-html-basic/">1-dars</a>
     </div>
 
-    <div style="border: 1px solid black; width: 300px;">
-        <h2>lesson 2</h2>
-        <p>Table & list</p>
+    <div class="lesson-card">
+        <h2>Lesson 2</h2>
+        <p>Table & List</p>
         <a href="./2-table-list/">2-dars</a>
     </div>
 
