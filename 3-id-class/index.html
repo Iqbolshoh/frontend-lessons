@@ -6,36 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>id & class</title>
     <style>
+        .btn {
+            background-color: white;
+            font-size: 22px;
+            border-radius: 9px;
+            padding: 11px 70px;
+        }
+
         #btn-1 {
-            background-color: green;
-            color: white;
+            color: green;
+            border: 3px solid green;
         }
 
         #btn-2 {
-            background-color: red;
+            color: red;
+            border: 3px solid red;
+        }
+
+        #btn-1:hover {
             color: white;
+            background-color: green;
         }
 
-        #sarlavha {
-            color: blue;
+        #btn-2:hover {
+            color: white;
+            background-color: red;
         }
 
-        .sarlavhalar {
-            color: blueviolet;
+        .size {
+            font-size: 45px;
+        }
+
+        .color {
+            color: brown;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #sarlavha-1 {
+            background-color: rgb(217, 255, 0);
+            color: rgb(255, 145, 0);
         }
     </style>
 </head>
 
 <body>
 
-    <button id="btn-1">Tanlash</button>
-    <button id="btn-2">Bekor qilish</button>
+    <button id="btn-1" class="btn">Tanlash</button>
+    <button id="btn-2" class="btn">Bekor qilish</button>
 
-    <h1 id="sarlavha">Alias, reiciendis vitae?</h1>
-    <h1>Lorem, ipsum dolor.</h1>
-    <h1 class="sarlavhalar">Illum, harum nesciunt.</h1>
-    <h1 class="sarlavhalar">Numquam, aut accusantium!</h1>
-    <h1 class="sarlavhalar">Recusandae, soluta velit.</h1>
+    <h2 class="size color center" id="sarlavha-1">Lorem ipsum dolor sit amet.</h2>
+    <h2 class="color center">Ex magni neque quaerat eaque!</h2>
+    <h2 class="size">Incidunt sint quod assumenda doloribus.</h2>
 
 </body>
 
