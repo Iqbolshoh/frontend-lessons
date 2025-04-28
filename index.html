@@ -3,131 +3,146 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
-    <title>Lessons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome - Lessons & Projects</title>
     <style>
-        /* Global styles */
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #eef2f3;
             margin: 0;
-            font-family: 'Poppins', Arial, sans-serif;
-            background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px 20px;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            display: inline-block;
+            background: #00796b;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background: #004d40;
+            transform: scale(1.05);
         }
 
         h1 {
-            margin-bottom: 40px;
             color: #333;
-            text-align: center;
             font-size: 36px;
         }
 
-        /* Grid container */
-        .lessons-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            width: 100%;
-            max-width: 1200px;
-        }
-
-        /* Lesson card */
-        .lesson-card {
-            background-color: #ffffff;
-            border-radius: 16px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        .section {
+            margin-bottom: 60px;
             padding: 30px 20px;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 20px;
         }
 
-        .lesson-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        .lessons {
+            background: linear-gradient(135deg, #b2ebf2, #e0f7fa);
         }
 
-        .lesson-card h2 {
-            color: #007bff;
-            margin-bottom: 15px;
+        .projects {
+            background: linear-gradient(135deg, #f8bbd0, #fce4ec);
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #00796b;
             font-size: 24px;
         }
 
-        .lesson-card p {
+        .card p {
             color: #555;
-            margin-bottom: 20px;
             font-size: 16px;
         }
 
-        .lesson-card a {
-            background-color: #007bff;
-            color: #fff;
-            padding: 12px 30px;
-            border-radius: 8px;
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            background: #00796b;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 25px;
             text-decoration: none;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
         }
 
-        .lesson-card a:hover {
-            background-color: #0056b3;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 28px;
-            }
-
-            .lesson-card h2 {
-                font-size: 20px;
-            }
-
-            .lesson-card p {
-                font-size: 14px;
-            }
-
-            .lesson-card a {
-                font-size: 16px;
-            }
+        .card a:hover {
+            background: #004d40;
+            transform: scale(1.05);
         }
     </style>
 </head>
 
 <body>
 
-    <h1>List of Lessons</h1>
+    <header>
+        <h1>Welcome to My Lessons & Projects</h1>
+        <nav>
+            <a href="#lessons">📚 Lessons</a>
+            <a href="#projects">🚀 Projects</a>
+        </nav>
+    </header>
 
-    <div class="lessons-container">
-        <div class="lesson-card">
-            <h2>Lesson 1</h2>
-            <p>HTML Basics</p>
-            <a href="./1-html-basic/">Go to Lesson 1</a>
+    <section id="lessons" class="section lessons">
+        <h2>📚 Lessons</h2>
+
+        <div class="card">
+            <h3>Lesson 1: HTML Basic</h3>
+            <p>Learn the foundations of HTML and structure your first web page beautifully and professionally.</p>
+            <a href="lessons/1-html-basic/index.html">Start Lesson</a>
         </div>
 
-        <div class="lesson-card">
-            <h2>Lesson 2</h2>
-            <p>Tables & Lists</p>
-            <a href="./2-table-list/">Go to Lesson 2</a>
+        <div class="card">
+            <h3>Lesson 2: Style Attribute</h3>
+            <p>Master the style attribute and create colorful elements directly in your HTML!</p>
+            <a href="lessons/2-style-attribute/index.html">Start Lesson</a>
         </div>
 
-        <div class="lesson-card">
-            <h2>Lesson 3</h2>
-            <p>ID & Class Attributes</p>
-            <a href="./3-id-class/">Go to Lesson 3</a>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>🚀 Projects</h2>
+
+        <div class="card">
+            <h3>Project 1: My First Project</h3>
+            <p>Launch your very first creative website project using basic but powerful HTML and CSS skills!</p>
+            <a href="projects/1-first-project/index.html">View Project</a>
         </div>
 
-        <!-- To add more lessons, simply duplicate the following code block -->
-        <!--
-        <div class="lesson-card">
-            <h2>Lesson 4</h2>
-            <p>Form Elements</p>
-            <a href="./4-form-elements/">Go to Lesson 4</a>
-        </div>
-        -->
-    </div>
+    </section>
 
 </body>
 
