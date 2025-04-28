@@ -4,74 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
     <title>Lessons</title>
     <style>
+        /* Global styles */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 20px;
+            padding: 40px 20px;
         }
 
-        .lesson-card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 12px;
-            width: 90%;
-            max-width: 350px;
-            margin: 15px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+        h1 {
+            margin-bottom: 40px;
+            color: #333;
             text-align: center;
+            font-size: 36px;
+        }
+
+        /* Grid container */
+        .lessons-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Lesson card */
+        .lesson-card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+            padding: 30px 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .lesson-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
         }
 
         .lesson-card h2 {
-            color: #333;
-            margin-bottom: 10px;
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 24px;
         }
 
         .lesson-card p {
-            color: #666;
+            color: #555;
             margin-bottom: 20px;
+            font-size: 16px;
         }
 
         .lesson-card a {
             background-color: #007bff;
-            color: white;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 8px;
             text-decoration: none;
             font-size: 18px;
-            padding: 10px 30px;
-            border-radius: 8px;
-            display: inline-block;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s ease;
         }
 
         .lesson-card a:hover {
             background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            .lesson-card h2 {
+                font-size: 20px;
+            }
+
+            .lesson-card p {
+                font-size: 14px;
+            }
+
+            .lesson-card a {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="lesson-card">
-        <h2>Lesson 1</h2>
-        <p>Basic</p>
-        <a href="./1-html-basic/">1-dars</a>
-    </div>
+    <h1>List of Lessons</h1>
 
-    <div class="lesson-card">
-        <h2>Lesson 2</h2>
-        <p>Table & List</p>
-        <a href="./2-table-list/">2-dars</a>
-    </div>
+    <div class="lessons-container">
+        <div class="lesson-card">
+            <h2>Lesson 1</h2>
+            <p>HTML Basics</p>
+            <a href="./1-html-basic/">Go to Lesson 1</a>
+        </div>
 
-    <div class="lesson-card">
-        <h2>Lesson 3</h2>
-        <p>Id & Class</p>
-        <a href="./3-id-class/">3-dars</a>
+        <div class="lesson-card">
+            <h2>Lesson 2</h2>
+            <p>Tables & Lists</p>
+            <a href="./2-table-list/">Go to Lesson 2</a>
+        </div>
+
+        <div class="lesson-card">
+            <h2>Lesson 3</h2>
+            <p>ID & Class Attributes</p>
+            <a href="./3-id-class/">Go to Lesson 3</a>
+        </div>
+
+        <!-- To add more lessons, simply duplicate the following code block -->
+        <!--
+        <div class="lesson-card">
+            <h2>Lesson 4</h2>
+            <p>Form Elements</p>
+            <a href="./4-form-elements/">Go to Lesson 4</a>
+        </div>
+        -->
     </div>
 
 </body>
