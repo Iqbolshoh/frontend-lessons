@@ -3,12 +3,106 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Welcome to Frontend Lessons & Projects</title>
 </head>
 
 <body>
-    <h1>Salom😁</h1>
+    <header>
+        <h1>Welcome to Frontend Lessons & Projects</h1>
+        <nav>
+            <a href="#html-lessons"><i class="fas fa-code"></i> HTML Lessons</a>
+            <a href="#css-lessons"><i class="fab fa-css3-alt"></i> CSS Lessons</a>
+            <a href="#js-lessons"><i class="fab fa-js-square"></i> JavaScript Lessons</a>
+            <a href="#bootstrap-lessons"><i class="fab fa-bootstrap"></i> Bootstrap Lessons</a>
+            <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+        </nav>
+    </header>
+
+    <section id="html-lessons" class="section lessons">
+        <h2><i class="fas fa-code"></i> HTML Lessons</h2>
+    </section>
+
+    <section id="css-lessons" class="section lessons">
+        <h2><i class="fab fa-css3-alt"></i> CSS Lessons</h2>
+    </section>
+
+    <section id="js-lessons" class="section lessons">
+        <h2><i class="fab fa-js-square"></i> JavaScript Lessons</h2>
+    </section>
+
+    <section id="bootstrap-lessons" class="section lessons">
+        <h2><i class="fab fa-bootstrap"></i> Bootstrap Lessons</h2>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+    </section>
+
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script>
+        fetch('./src/json/lessons.json')
+            .then(response => response.json())
+            .then(data => {
+                function createCard(item, isProject = false) {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                        <a href="${item.link}">${isProject ? 'View Project' : 'Start Lesson'}</a>
+                    `;
+                    return card;
+                }
+
+                const htmlSection = document.querySelector('#html-lessons');
+                data.html.forEach(item => {
+                    htmlSection.appendChild(createCard(item));
+                });
+
+                const cssSection = document.querySelector('#css-lessons');
+                data.css.forEach(item => {
+                    cssSection.appendChild(createCard(item));
+                });
+
+                const jsSection = document.querySelector('#js-lessons');
+                data.javascript.forEach(item => {
+                    jsSection.appendChild(createCard(item));
+                });
+
+                const bootstrapSection = document.querySelector('#bootstrap-lessons');
+                if (data.bootstrap.length !== 0) {
+                    data.bootstrap.forEach(item => {
+                        bootstrapSection.appendChild(createCard(item));
+                    });
+                }
+
+                const projectsSection = document.querySelector('#projects');
+                data.projects.forEach(item => {
+                    projectsSection.appendChild(createCard(item, true));
+                });
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+
+        window.onscroll = function () {
+            const btn = document.getElementById('scrollToTopBtn');
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = 'flex';
+            } else {
+                btn.style.display = 'none';
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 
 </html>

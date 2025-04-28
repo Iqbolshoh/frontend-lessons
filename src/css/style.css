@@ -1,0 +1,161 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8fafc;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+  color: white;
+}
+
+nav a:hover {
+  transform: scale(1.05);
+}
+
+nav a[href="#html-lessons"] {
+  background-color: #e34c26;
+}
+
+nav a[href="#css-lessons"] {
+  background-color: #264de4;
+}
+
+nav a[href="#js-lessons"] {
+  background-color: #f0db4f;
+  color: #000;
+}
+
+nav a[href="#bootstrap-lessons"] {
+  background-color: #7952b3;
+}
+
+nav a[href="#projects"] {
+  background-color: #28a745;
+}
+
+h1 {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.section {
+  margin-bottom: 60px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#html-lessons {
+  background: linear-gradient(135deg, #e34c26, #f06529);
+}
+
+#css-lessons {
+  background: linear-gradient(135deg, #264de4, #2965f1);
+}
+
+#js-lessons {
+  background: linear-gradient(135deg, #f0db4f, #f7df1e);
+  color: #000;
+}
+
+#bootstrap-lessons {
+  background: linear-gradient(135deg, #7952b3, #6f42c1);
+}
+
+#projects {
+  background: linear-gradient(135deg, #28a745, #218838);
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #4f46e5;
+  font-size: 24px;
+}
+
+.card p {
+  color: #555;
+  font-size: 16px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  background: #4f46e5;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.card a:hover {
+  background: #4338ca;
+  transform: scale(1.05);
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #4338ca;
+  transform: scale(1.1);
+}
+
+.no-content {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
