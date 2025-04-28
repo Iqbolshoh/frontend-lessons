@@ -43,7 +43,8 @@
 
             async function loadLessons() {
                 try {
-                    const test = "test"; 
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const test = urlParams.get('test');
                     const response = await fetch(`./src/json/${test}.json`);
                     lessons = await response.json();
                     resetGame();
