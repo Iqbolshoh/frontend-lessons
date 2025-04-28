@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #eef2f3;
+            background: #f8fafc;
             margin: 0;
             padding: 20px;
         }
@@ -29,23 +29,43 @@
 
         nav a {
             display: inline-block;
-            background: #00796b;
-            color: white;
             padding: 10px 20px;
             margin: 5px;
             border-radius: 25px;
             text-decoration: none;
             font-weight: bold;
             transition: background 0.3s, transform 0.3s;
+            color: white;
         }
 
         nav a:hover {
-            background: #004d40;
             transform: scale(1.05);
         }
 
+        nav a[href="#html-lessons"] {
+            background-color: #e34c26;
+        }
+
+        nav a[href="#css-lessons"] {
+            background-color: #264de4;
+        }
+
+        nav a[href="#js-lessons"] {
+            background-color: #f0db4f;
+            color: #000;
+            /* барои JavaScript ранги матн сиёҳ карда шуд */
+        }
+
+        nav a[href="#bootstrap-lessons"] {
+            background-color: #7952b3;
+        }
+
+        nav a[href="#projects"] {
+            background-color: #28a745;
+        }
+
         h1 {
-            color: #333;
+            color: #1f2937;
             font-size: 36px;
         }
 
@@ -53,14 +73,28 @@
             margin-bottom: 60px;
             padding: 30px 20px;
             border-radius: 20px;
+            color: #fff;
         }
 
-        .lessons {
-            background: linear-gradient(135deg, #b2ebf2, #e0f7fa);
+        #html-lessons {
+            background: linear-gradient(135deg, #e34c26, #f06529);
         }
 
-        .projects {
-            background: linear-gradient(135deg, #f8bbd0, #fce4ec);
+        #css-lessons {
+            background: linear-gradient(135deg, #264de4, #2965f1);
+        }
+
+        #js-lessons {
+            background: linear-gradient(135deg, #f0db4f, #f7df1e);
+            color: #000;
+        }
+
+        #bootstrap-lessons {
+            background: linear-gradient(135deg, #7952b3, #6f42c1);
+        }
+
+        #projects {
+            background: linear-gradient(135deg, #28a745, #218838);
         }
 
         .card {
@@ -79,7 +113,7 @@
 
         .card h3 {
             margin-top: 0;
-            color: #00796b;
+            color: #4f46e5;
             font-size: 24px;
         }
 
@@ -91,7 +125,7 @@
         .card a {
             display: inline-block;
             margin-top: 15px;
-            background: #00796b;
+            background: #4f46e5;
             color: white;
             padding: 10px 18px;
             border-radius: 25px;
@@ -101,22 +135,20 @@
         }
 
         .card a:hover {
-            background: #004d40;
+            background: #4338ca;
             transform: scale(1.05);
         }
 
-        /* Sticky button for scrolling to top */
         #scrollToTopBtn {
             position: fixed;
             bottom: 10px;
             right: 10px;
-            background-color: #00796b;
+            background-color: #4f46e5;
             color: white;
             border-radius: 50%;
             width: 50px;
             height: 50px;
             display: none;
-            /* Hidden by default */
             justify-content: center;
             align-items: center;
             cursor: pointer;
@@ -126,7 +158,7 @@
         }
 
         #scrollToTopBtn:hover {
-            background-color: #004d40;
+            background-color: #4338ca;
             transform: scale(1.1);
         }
     </style>
@@ -137,44 +169,127 @@
     <header>
         <h1>Welcome to Frontend Lessons & Projects</h1>
         <nav>
-            <a href="#lessons" onclick="scrollToTop()">📚 Lessons</a>
+            <a href="#html-lessons" onclick="scrollToTop()">📚 HTML Lessons</a>
+            <a href="#css-lessons" onclick="scrollToTop()">🎨 CSS Lessons</a>
+            <a href="#js-lessons" onclick="scrollToTop()">💻 JavaScript Lessons</a>
+            <a href="#bootstrap-lessons" onclick="scrollToTop()">⚙️ Bootstrap Lessons</a>
             <a href="#projects" onclick="scrollToTop()">🚀 Projects</a>
         </nav>
     </header>
 
-    <section id="lessons" class="section lessons">
-        <h2>📚 Lessons</h2>
+    <section id="html-lessons" class="section lessons">
+        <h2>📚 HTML Lessons</h2>
 
         <div class="card">
-            <h3>Lesson 1: HTML Basic</h3>
-            <p>Learn the foundations of HTML and structure your first web page beautifully and professionally.</p>
-            <a href="lessons/1-html-basic/index.html">Start Lesson</a>
+            <h3>Lesson 1: HTML Structure</h3>
+            <p>Learn the basic structure of HTML and how to create your web page.</p>
+            <a href="lessons/1-html-structure/index.html">Start Lesson</a>
         </div>
 
         <div class="card">
-            <h3>Lesson 2: Style Attribute</h3>
-            <p>Master the style attribute and create colorful elements directly in your HTML!</p>
-            <a href="lessons/2-style-attribute/index.html">Start Lesson</a>
+            <h3>Lesson 2: Basic HTML Tags</h3>
+            <p>Learn the fundamental HTML tags and how to use them to build your webpage.</p>
+            <a href="lessons/2-basic-html-tags/index.html">Start Lesson</a>
         </div>
 
+        <div class="card">
+            <h3>Lesson 3: HTML Attributes (Style)</h3>
+            <p>Learn how to use HTML attributes, especially the <code>style</code> attribute to customize your elements.
+            </p>
+            <a href="lessons/3-html-attributes/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 4: ID and Class Usage</h3>
+            <p>Learn the differences between <code>ID</code> and <code>class</code> and how to apply them in styling
+                HTML elements.</p>
+            <a href="lessons/4-id-class/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 5: Block and Inline Elements</h3>
+            <p>Understand the differences between block and inline elements and how to use them effectively.</p>
+            <a href="lessons/5-block-inline-elements/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 6: Text Formatting Tags (Bold, Italic, Underline)</h3>
+            <p>Learn how to format text using <code>bold</code>, <code>italic</code>, and <code>underline</code> tags.
+            </p>
+            <a href="lessons/6-text-formatting/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 7: Lists (Ordered and Unordered)</h3>
+            <p>Learn how to create ordered and unordered lists in HTML.</p>
+            <a href="lessons/7-lists/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 8: Creating Tables</h3>
+            <p>Learn how to create tables in HTML and how to use them to organize data.</p>
+            <a href="lessons/8-tables/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 9: Basic Form Elements</h3>
+            <p>Learn how to create forms in HTML and understand the basic elements required for building forms.</p>
+            <a href="lessons/9-forms/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 10: Semantic HTML Tags</h3>
+            <p>Learn how to use semantic HTML tags to improve the structure and meaning of your webpage.</p>
+            <a href="lessons/10-semantic-html/index.html">Start Lesson</a>
+        </div>
+
+        <div class="card">
+            <h3>Lesson 11: Linking External Files (CSS, JavaScript, Font Awesome, Google Fonts)</h3>
+            <p>Learn how to link external resources like CSS, JavaScript, Font Awesome, and Google Fonts to your
+                webpage.</p>
+            <a href="lessons/11-external-files/index.html">Start Lesson</a>
+        </div>
+
+    </section>
+
+    <section id="css-lessons" class="section lessons">
+        <h2>🎨 CSS Lessons</h2>
+    </section>
+
+    <section id="js-lessons" class="section lessons">
+        <h2>💻 JavaScript Lessons</h2>
+    </section>
+
+    <section id="bootstrap-lessons" class="section lessons">
+        <h2>⚙️ Bootstrap Lessons</h2>
     </section>
 
     <section id="projects" class="section projects">
         <h2>🚀 Projects</h2>
 
         <div class="card">
-            <h3>Project 1: My First Project</h3>
-            <p>Launch your very first creative website project using basic but powerful HTML and CSS skills!</p>
-            <a href="projects/1-first-project/index.html">View Project</a>
+            <h3>Project 1: Basic HTML Page</h3>
+            <p>Create a simple HTML page and get hands-on practice with basic HTML.</p>
+            <a href="projects/1-basic-html-page/index.html">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Project 2: HTML Table with Styling</h3>
+            <p>Build an HTML table and apply CSS styling to enhance its appearance.</p>
+            <a href="projects/2-html-table/index.html">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Project 3: Personal Portfolio</h3>
+            <p>Create your own personal portfolio page using HTML, CSS, and external resources.</p>
+            <a href="projects/3-personal-portfolio/index.html">View Project</a>
         </div>
 
     </section>
 
-    <!-- Scroll to Top Button -->
     <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
 
     <script>
-        // Show the button when the user scrolls down
         window.onscroll = function () {
             if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
                 document.getElementById("scrollToTopBtn").style.display = "flex";
@@ -183,7 +298,6 @@
             }
         };
 
-        // Scroll to top function
         function scrollToTop() {
             window.scrollTo({
                 top: 0,
