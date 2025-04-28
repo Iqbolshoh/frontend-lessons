@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../src/css/lesssons.css">
+    <title>Lesson 2: Basic HTML Tags</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 2: Basic HTML Tags</h1>
+        <p>Learn the fundamental HTML tags and how to use them to build your webpage.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2><i class="fas fa-tags"></i> Most Common HTML Tags</h2>
+            <div class="html-tags-grid">
+                <div class="tag-card">
+                    <code>&lt;h1&gt; - &lt;h6&gt;</code>
+                    <p>Heading tags for titles and subtitles</p>
+                </div>
+                <div class="tag-card">
+                    <code>&lt;p&gt;</code>
+                    <p>Paragraph text</p>
+                </div>
+                <div class="tag-card">
+                    <code>&lt;a&gt;</code>
+                    <p>Hyperlinks to other pages</p>
+                </div>
+                <div class="tag-card">
+                    <code>&lt;img&gt;</code>
+                    <p>Embed images</p>
+                </div>
+                <div class="tag-card">
+                    <code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code>
+                    <p>Lists (unordered and ordered)</p>
+                </div>
+                <div class="tag-card">
+                    <code>&lt;div&gt;</code>
+                    <p>Content division container</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-laptop-code"></i> HTML Document Structure</h2>
+            <pre><code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-2">
+                <i class="fas fa-check-circle"></i>
+                Go Test
+            </a>
+        </div>
+    </main>
+
+    <script>document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });</script>
+</body>
+
+</html>
