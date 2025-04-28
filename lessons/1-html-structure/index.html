@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <title>Lesson 1: HTML Structure</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            color: #4f46e5;
+            font-size: 36px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .lesson-content {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .lesson-content h2 {
+            color: #4f46e5;
+            margin-bottom: 20px;
+        }
+
+        .lesson-content ul {
+            padding-left: 20px;
+        }
+
+        .lesson-content li {
+            margin-bottom: 10px;
+        }
+
+        code {
+            background: #f1f5f9;
+        }
+
+        pre {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+        }
+
+        .navigation {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation a {
+            background: #4f46e5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .navigation a:hover {
+            background: #4338ca;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lesson 1: HTML Structure</h1>
+        <p>Learn the basic structure of HTML and how to create your web page.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>Basic Tags in HTML</h2>
+            <p>HTML uses various tags to build a web page. Here are the basic ones:</p>
+
+            <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code> - Tells the browser this is an HTML5 document.</li>
+                <li><code>&lt;html&gt;</code> - The root element of an HTML page.</li>
+                <li><code>&lt;head&gt;</code> - Contains meta information about the page.</li>
+                <li><code>&lt;body&gt;</code> - Contains the visible page content.</li>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Headings from largest (h1) to smallest (h6).
+                    <em>(Heading)</em>
+                </li>
+                <li><code>&lt;p&gt;</code> <em>(Paragraph)</em> - Paragraph tag to write text.</li>
+                <li><code>&lt;a&gt;</code> - <em>(Anchor)</em> Anchor tag to create links.</li>
+                <li><code>&lt;img&gt;</code> - <em>(Image)</em> Image tag to display pictures.</li>
+                <li><code>&lt;button&gt;</code> - <em>(Button)</em> Creates a clickable button.</li>
+                <li><code>&lt;iframe&gt;</code> - <em>(Iframe)</em> Embeds another webpage inside your page.</li>
+                <li><code>&lt;br&gt;</code> - <em>(Line Break)</em> Line break to create space between elements.</li>
+                <li><code>&lt;hr&gt;</code> - <em>(Horizontal Rule)</em> Horizontal rule to separate content visually.
+                </li>
+            </ul>
+
+            <h4>Example of HTML Code</h4>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;This is my first web page.&lt;/p&gt;
+    
+    &lt;br&gt;
+    
+    &lt;hr&gt;
+    &lt;a href="https://iqbolshoh.uz"&gt;Click here&lt;/a&gt; to visit the website.
+    
+    &lt;img src="example.jpg" alt="Example Image" width="300"&gt;
+    
+    &lt;button&gt;Click Me!&lt;/button&gt;
+    
+    &lt;iframe src="https://iqbolshoh.uz" width="400" height="300"&gt;&lt;/iframe&gt;
+    
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+        </section>
+
+        <div class="navigation">
+            <a href="../../">← Back to Lessons</a>
+        </div>
+    </main>
+
+</body>
+
+</html>
