@@ -5,112 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/lesssons.css">
     <title>Lesson 1: HTML Structure</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f4f8;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        header h1 {
-            color: #4f46e5;
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 18px;
-            color: #555;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .lesson-content {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-        }
-
-        .lesson-content h2 {
-            color: #4f46e5;
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-
-        .lesson-content ul {
-            padding-left: 20px;
-        }
-
-        .lesson-content li {
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-
-        code {
-            background: #f1f5f9;
-            padding: 2px 6px;
-            border-radius: 5px;
-            font-family: 'Courier New', Courier, monospace;
-            /* Changed to Courier New */
-            font-size: 16px;
-            /* Increased font size */
-        }
-
-        pre {
-            background: #f1f5f9;
-            padding: 20px;
-            border-radius: 10px;
-            overflow-x: auto;
-            font-size: 16px;
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        .navigation {
-            margin-top: 30px;
-            text-align: center;
-        }
-
-        .navigation a {
-            background: #4f46e5;
-            color: white;
-            padding: 12px 25px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.3s;
-            margin: 0 10px;
-        }
-
-        .navigation a:hover {
-            background: #4338ca;
-        }
-
-        .navigation a.second-link {
-            background: #10b981;
-        }
-
-        .navigation a.second-link:hover {
-            background: #059669;
-        }
-
-        .navigation a i {
-            margin-right: 8px;
-        }
-    </style>
 </head>
 
 <body>
@@ -180,14 +76,7 @@
         </div>
     </main>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const testLink = document.querySelector('.second-link');
-            const testValue = testLink.getAttribute('data-test');
-            const encodedValue = btoa(testValue);
-            testLink.href = `../../test.html?test=${encodedValue}`;
-        });
-    </script>
+    <script>document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });</script>
 </body>
 
 </html>
