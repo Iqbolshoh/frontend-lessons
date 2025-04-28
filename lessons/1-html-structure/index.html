@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Lesson 1: HTML Structure</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8fafc;
+            background-color: #f0f4f8;
             margin: 0;
             padding: 20px;
             color: #333;
@@ -22,11 +24,17 @@
 
         header h1 {
             color: #4f46e5;
-            font-size: 36px;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #555;
         }
 
         main {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
         }
 
@@ -40,6 +48,7 @@
         .lesson-content h2 {
             color: #4f46e5;
             margin-bottom: 20px;
+            font-size: 28px;
         }
 
         .lesson-content ul {
@@ -48,10 +57,17 @@
 
         .lesson-content li {
             margin-bottom: 10px;
+            font-size: 16px;
         }
 
         code {
             background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            /* Changed to Courier New */
+            font-size: 16px;
+            /* Increased font size */
         }
 
         pre {
@@ -59,6 +75,10 @@
             padding: 20px;
             border-radius: 10px;
             overflow-x: auto;
+            font-size: 16px;
+            /* Increased font size */
+            font-family: 'Courier New', Courier, monospace;
+            /* Changed to Courier New */
         }
 
         .navigation {
@@ -69,15 +89,28 @@
         .navigation a {
             background: #4f46e5;
             color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
+            padding: 12px 25px;
+            border-radius: 30px;
             text-decoration: none;
             font-weight: bold;
             transition: background 0.3s;
+            margin: 0 10px;
         }
 
         .navigation a:hover {
             background: #4338ca;
+        }
+
+        .navigation a.second-link {
+            background: #10b981;
+        }
+
+        .navigation a.second-link:hover {
+            background: #059669;
+        }
+
+        .navigation a i {
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -119,12 +152,15 @@
     &lt;title&gt;My First Page&lt;/title&gt;
   &lt;/head&gt;
   &lt;body&gt;
+
     &lt;h1&gt;Hello World!&lt;/h1&gt;
+    
     &lt;p&gt;This is my first web page.&lt;/p&gt;
     
     &lt;br&gt;
     
     &lt;hr&gt;
+
     &lt;a href="https://iqbolshoh.uz"&gt;Click here&lt;/a&gt; to visit the website.
     
     &lt;img src="example.jpg" alt="Example Image" width="300"&gt;
@@ -138,7 +174,8 @@
         </section>
 
         <div class="navigation">
-            <a href="../../">← Back to Lessons</a>
+            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
+            <a href="test-1.html" class="second-link"><i class="fas fa-check-circle"></i>Test-1</a>
         </div>
     </main>
 
