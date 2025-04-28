@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome - Lessons & Projects</title>
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <title>Welcome to Frontend Lessons & Projects</title>
     <style>
         html {
             scroll-behavior: smooth;
@@ -103,16 +104,41 @@
             background: #004d40;
             transform: scale(1.05);
         }
+
+        /* Sticky button for scrolling to top */
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #00796b;
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: none;
+            /* Hidden by default */
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        #scrollToTopBtn:hover {
+            background-color: #004d40;
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1>Welcome to My Lessons & Projects</h1>
+        <h1>Welcome to Frontend Lessons & Projects</h1>
         <nav>
-            <a href="#lessons">📚 Lessons</a>
-            <a href="#projects">🚀 Projects</a>
+            <a href="#lessons" onclick="scrollToTop()">📚 Lessons</a>
+            <a href="#projects" onclick="scrollToTop()">🚀 Projects</a>
         </nav>
     </header>
 
@@ -143,6 +169,28 @@
         </div>
 
     </section>
+
+    <!-- Scroll to Top Button -->
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                document.getElementById("scrollToTopBtn").style.display = "flex";
+            } else {
+                document.getElementById("scrollToTopBtn").style.display = "none";
+            }
+        };
+
+        // Scroll to top function
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 
 </body>
 
