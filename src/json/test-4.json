@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What is the main difference between an ID and a Class?",
+    "option-1": "ID is unique and class can be reused",
+    "option-2": "Both are unique",
+    "option-3": "Class is unique and ID can be reused",
+    "option-4": "None of the above"
+  },
+  {
+    "question": "Can an ID be used more than once on a page?",
+    "option-1": "No",
+    "option-2": "Yes",
+    "option-3": "Only in specific cases",
+    "option-4": "Only in JavaScript"
+  },
+  {
+    "question": "Which attribute is used for grouping similar elements in HTML?",
+    "option-1": "Class",
+    "option-2": "ID",
+    "option-3": "Name",
+    "option-4": "Type"
+  },
+  {
+    "question": "What is the correct syntax for applying a class in an HTML element?",
+    "option-1": "class='className'",
+    "option-2": "id='className'",
+    "option-3": "class-name='className'",
+    "option-4": "class-name=className"
+  },
+  {
+    "question": "How do you apply styles to an element with a specific ID using CSS?",
+    "option-1": "#idName { styles }",
+    "option-2": ".idName { styles }",
+    "option-3": "idName { styles }",
+    "option-4": "None of the above"
+  },
+  {
+    "question": "Which of the following is NOT a valid CSS selector?",
+    "option-1": "id .name",
+    "option-2": "#idName",
+    "option-3": ".className",
+    "option-4": "div"
+  },
+  {
+    "question": "Can an element have both an ID and a Class?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only one at a time",
+    "option-4": "None of the above"
+  },
+  {
+    "question": "What is the correct way to reference a class in CSS?",
+    "option-1": ".className { styles }",
+    "option-2": "#className { styles }",
+    "option-3": "className { styles }",
+    "option-4": "None of the above"
+  },
+  {
+    "question": "Which HTML element uses the 'href' attribute?",
+    "option-1": "<a>",
+    "option-2": "<img>",
+    "option-3": "<div>",
+    "option-4": "<p>"
+  },
+  {
+    "question": "What does the 'alt' attribute in an image tag do?",
+    "option-1": "Provides a text description of the image",
+    "option-2": "Sets the width of the image",
+    "option-3": "Changes the color of the image",
+    "option-4": "Applies CSS styles to the image"
+  },
+  {
+    "question": "Can the 'style' attribute be used to apply multiple CSS properties to an element?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only for font styles",
+    "option-4": "Only for background color"
+  },
+  {
+    "question": "What is the purpose of the 'id' attribute in HTML?",
+    "option-1": "To uniquely identify an element on a page",
+    "option-2": "To group elements together",
+    "option-3": "To apply styles",
+    "option-4": "To specify the background color"
+  },
+  {
+    "question": "What does the 'class' attribute do?",
+    "option-1": "Allows you to group elements for styling",
+    "option-2": "Applies styles to a single element",
+    "option-3": "Sets the element's position",
+    "option-4": "Specifies the width of an element"
+  },
+  {
+    "question": "Which of the following is the correct syntax for applying an ID in an HTML element?",
+    "option-1": "id='idName'",
+    "option-2": "class='idName'",
+    "option-3": "name='idName'",
+    "option-4": "id-name='idName'"
+  },
+  {
+    "question": "Can you use both ID and Class on the same element?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only if they have the same name",
+    "option-4": "None of the above"
+  },
+  {
+    "question": "Which CSS selector would you use to target all elements with a class of 'highlight'?",
+    "option-1": ".highlight",
+    "option-2": "#highlight",
+    "option-3": "highlight",
+    "option-4": "class='highlight'"
+  },
+  {
+    "question": "Which of the following elements can have an ID?",
+    "option-1": "Any HTML element",
+    "option-2": "Only <div> elements",
+    "option-3": "Only <span> elements",
+    "option-4": "Only <p> elements"
+  },
+  {
+    "question": "What happens if two elements on the same page share the same ID?",
+    "option-1": "The page is invalid and may not render correctly",
+    "option-2": "It works as normal",
+    "option-3": "Only the first element is affected by styles",
+    "option-4": "The second element overrides the first one"
+  },
+  {
+    "question": "Which HTML element uses the 'src' attribute?",
+    "option-1": "<img>",
+    "option-2": "<a>",
+    "option-3": "<div>",
+    "option-4": "<p>"
+  },
+  {
+    "question": "How do you apply a background color using the 'style' attribute?",
+    "option-1": "style='background-color: color;'",
+    "option-2": "style='color: background;'",
+    "option-3": "background='color'",
+    "option-4": "background-color: color;"
+  }
+]

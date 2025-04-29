@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const currentLesson = lessons[currentIndex];
     const quizText = `${currentIndex + 1}) ${capitalize(
-      escapeHTML(currentLesson.quiz)
+      escapeHTML(currentLesson.question)
     )}`;
 
     quizContainer.innerHTML = quizText;

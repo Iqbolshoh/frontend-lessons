@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 4: ID and Class Usage</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 4: ID and Class Usage</h1>
+        <p>Learn the differences between ID and class and how to apply them in styling HTML elements.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>What are ID and Class in HTML?</h2>
+            <p>ID and class are used to apply styles to specific HTML elements or groups of elements. The ID is unique
+                to a single element, while classes can be applied to multiple elements.</p>
+
+            <h3>Difference between ID and Class:</h3>
+            <ul>
+                <li><code>ID</code> – Identifies a unique element on the page. It should be used only once on a page.
+                </li>
+                <li><code>Class</code> – Can be applied to multiple elements. It is used for grouping elements with
+                    similar styles.</li>
+            </ul>
+
+            <h3>Example Usage of ID and Class:</h3>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;ID and Class Usage&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div id="uniqueElement" style="background-color: lightblue; padding: 20px; border-radius: 10px;"&gt;
+    This is an element with a unique ID.
+&lt;/div&gt;
+
+&lt;div class="commonClass" style="background-color: lightgreen; padding: 20px; border-radius: 10px;"&gt;
+    This is an element with a class applied.
+&lt;/div&gt;
+
+&lt;div class="commonClass" style="background-color: lightgreen; padding: 20px; border-radius: 10px;"&gt;
+    This is another element with the same class.
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+            </div>
+
+            <p><strong>Note:</strong> The <code>ID</code> attribute must be unique on the page, while the
+                <code>class</code> attribute can be reused on multiple elements.
+            </p>
+        </section>
+
+        <nav class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-4">
+                <i class="fas fa-check-circle"></i> Take the Test
+            </a>
+        </nav>
+    </main>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>
