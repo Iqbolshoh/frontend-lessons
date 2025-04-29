@@ -330,26 +330,3 @@ body::before {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-
-#scrollToTopBtn {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background-color: #4f46e5;
-  color: white;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  font-size: 24px;
-  transition: background 0.3s, transform 0.3s;
-}
-
-#scrollToTopBtn:hover {
-  background-color: #4338ca;
-  transform: scale(1.1);
-}

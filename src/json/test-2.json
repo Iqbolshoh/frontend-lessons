@@ -1,0 +1,142 @@
+[
+  {
+    "quiz": "Which HTML tag is used to define an internal style sheet?",
+    "option-1": "<style>",
+    "option-2": "<script>",
+    "option-3": "<css>",
+    "option-4": "<link>"
+  },
+  {
+    "quiz": "Which tag is used to create a clickable hyperlink in HTML?",
+    "option-1": "<a>",
+    "option-2": "<link>",
+    "option-3": "<href>",
+    "option-4": "<url>"
+  },
+  {
+    "quiz": "Which tag contains all visible content?",
+    "option-1": "<body>",
+    "option-2": "<head>",
+    "option-3": "<main>",
+    "option-4": "<html>"
+  },
+  {
+    "quiz": "Which tag is used to define a paragraph?",
+    "option-1": "<p>",
+    "option-2": "<par>",
+    "option-3": "<text>",
+    "option-4": "<span>"
+  },
+  {
+    "quiz": "Which HTML tag defines the title shown in the browser tab?",
+    "option-1": "<title>",
+    "option-2": "<head>",
+    "option-3": "<meta>",
+    "option-4": "<header>"
+  },
+  {
+    "quiz": "Which tag creates a clickable link?",
+    "option-1": "<a>",
+    "option-2": "<link>",
+    "option-3": "<href>",
+    "option-4": "<url>"
+  },
+  {
+    "quiz": "Which tag is used to embed a JavaScript file?",
+    "option-1": "<script>",
+    "option-2": "<js>",
+    "option-3": "<javascript>",
+    "option-4": "<link>"
+  },
+  {
+    "quiz": "What is the purpose of <meta> tag?",
+    "option-1": "To define metadata like charset and viewport",
+    "option-2": "To display images",
+    "option-3": "To add CSS styles",
+    "option-4": "To add footers"
+  },
+  {
+    "quiz": "Which tag displays an image?",
+    "option-1": "<img>",
+    "option-2": "<image>",
+    "option-3": "<pic>",
+    "option-4": "<src>"
+  },
+  {
+    "quiz": "Which tag adds a line break?",
+    "option-1": "<br>",
+    "option-2": "<break>",
+    "option-3": "<hr>",
+    "option-4": "<lb>"
+  },
+  {
+    "quiz": "Which tag creates a horizontal line?",
+    "option-1": "<hr>",
+    "option-2": "<line>",
+    "option-3": "<div>",
+    "option-4": "<border>"
+  },
+  {
+    "quiz": "Which tag is used for buttons?",
+    "option-1": "<button>",
+    "option-2": "<click>",
+    "option-3": "<input type='button'>",
+    "option-4": "<btn>"
+  },
+  {
+    "quiz": "What is the function of the <div> tag?",
+    "option-1": "To group content as a block",
+    "option-2": "To make text bold",
+    "option-3": "To define a link",
+    "option-4": "To create a paragraph"
+  },
+  {
+    "quiz": "What is the purpose of the <span> tag?",
+    "option-1": "To style inline elements",
+    "option-2": "To create a new block",
+    "option-3": "To show tooltips",
+    "option-4": "To add spacing"
+  },
+  {
+    "quiz": "Which tag is used to embed another webpage?",
+    "option-1": "<iframe>",
+    "option-2": "<frame>",
+    "option-3": "<embed>",
+    "option-4": "<webpage>"
+  },
+  {
+    "quiz": "Where should the <link> tag be placed?",
+    "option-1": "Inside <head>",
+    "option-2": "Inside <body>",
+    "option-3": "After <html>",
+    "option-4": "Before <title>"
+  },
+  {
+    "quiz": "Which tag is the root of an HTML document?",
+    "option-1": "<html>",
+    "option-2": "<body>",
+    "option-3": "<main>",
+    "option-4": "<root>"
+  },
+  {
+    "quiz": "Which tag holds JavaScript or CSS files externally?",
+    "option-1": "<link>",
+    "option-2": "<style>",
+    "option-3": "<script>",
+    "option-4": "<meta>"
+  },
+  {
+    "quiz": "Which tag is used to apply internal CSS?",
+    "option-1": "<style>",
+    "option-2": "<css>",
+    "option-3": "<script>",
+    "option-4": "<design>"
+  },
+  {
+    "quiz": "What does <head> contain?",
+    "option-1": "Metadata like title, link, meta",
+    "option-2": "Visible content",
+    "option-3": "Buttons and images",
+    "option-4": "Page footer"
+  }
+]
