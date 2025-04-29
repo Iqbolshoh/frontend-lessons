@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
     <link rel="stylesheet" href="../../src/css/lesssons.css">
     <title>Lesson 2: Basic HTML Tags</title>
 </head>
@@ -16,53 +17,85 @@
 
     <main>
         <section class="lesson-content">
-            <h2><i class="fas fa-tags"></i> Most Common HTML Tags</h2>
-            <div class="html-tags-grid">
-                <div class="tag-card">
-                    <code>&lt;h1&gt; - &lt;h6&gt;</code>
-                    <p>Heading tags for titles and subtitles</p>
-                </div>
-                <div class="tag-card">
-                    <code>&lt;p&gt;</code>
-                    <p>Paragraph text</p>
-                </div>
-                <div class="tag-card">
-                    <code>&lt;a&gt;</code>
-                    <p>Hyperlinks to other pages</p>
-                </div>
-                <div class="tag-card">
-                    <code>&lt;img&gt;</code>
-                    <p>Embed images</p>
-                </div>
-                <div class="tag-card">
-                    <code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code>
-                    <p>Lists (unordered and ordered)</p>
-                </div>
-                <div class="tag-card">
-                    <code>&lt;div&gt;</code>
-                    <p>Content division container</p>
-                </div>
+            <h2>Important HTML Tags</h2>
+            <p>HTML provides many tags to structure and design a webpage. Here are the most important ones:</p>
+
+            <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code> - Defines the document type and version (HTML5).</li>
+                <li><code>&lt;html&gt;</code> - Root of an HTML document.</li>
+                <li><code>&lt;head&gt;</code> - Meta information like title, links, etc.</li>
+                <li><code>&lt;meta&gt;</code> - Defines metadata (charset, viewport, etc.).</li>
+                <li><code>&lt;title&gt;</code> - Sets the title of the webpage (in browser tab).</li>
+                <li><code>&lt;link&gt;</code> - Links external files like CSS.</li>
+                <li><code>&lt;style&gt;</code> - Adds internal CSS styles.</li>
+                <li><code>&lt;script&gt;</code> - Adds JavaScript code inside HTML.</li>
+                <li><code>&lt;body&gt;</code> - Contains all visible content.</li>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Heading tags (h1 largest, h6 smallest).</li>
+                <li><code>&lt;p&gt;</code> - Paragraphs of text.</li>
+                <li><code>&lt;br&gt;</code> - Line break.</li>
+                <li><code>&lt;hr&gt;</code> - Horizontal line (divider).</li>
+                <li><code>&lt;a&gt;</code> - Anchor/link to another page or site.</li>
+                <li><code>&lt;img&gt;</code> - Displays images.</li>
+                <li><code>&lt;button&gt;</code> - Clickable button element.</li>
+                <li><code>&lt;div&gt;</code> - Division container to group content.</li>
+                <li><code>&lt;span&gt;</code> - Inline container for text or elements.</li>
+                <li><code>&lt;iframe&gt;</code> - Embeds another webpage inside the current page.</li>
+            </ul>
+
+            <h4>Example of Basic HTML Tags</h4>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Basic HTML Tags Example&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+    &lt;style&gt;
+      body { font-family: Arial, sans-serif; }
+    &lt;/style&gt;
+    &lt;script&gt;
+      console.log("Welcome to HTML lesson!");
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;h1&gt;Main Heading (h1)&lt;/h1&gt;
+    &lt;h2&gt;Subheading (h2)&lt;/h2&gt;
+    &lt;h3&gt;Smaller heading (h3)&lt;/h3&gt;
+    &lt;h4&gt;Even smaller heading (h4)&lt;/h4&gt;
+    &lt;h5&gt;Mini heading (h5)&lt;/h5&gt;
+    &lt;h6&gt;Tiny heading (h6)&lt;/h6&gt;
+
+    &lt;p&gt;This is a paragraph explaining basic HTML tags.&lt;/p&gt;
+
+    &lt;a href="https://iqbolshoh.uz" target="_blank"&gt;Visit Iqbolshoh's Website&lt;/a&gt;
+
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;img src="https://via.placeholder.com/150" alt="Placeholder Image"&gt;
+
+    &lt;hr&gt;
+
+    &lt;button onclick="alert('Button clicked!')"&gt;Click Me!&lt;/button&gt;
+
+    &lt;div style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;"&gt;
+      &lt;p&gt;This is a &lt;span style="color: red;"&gt;span&lt;/span&gt; inside a div.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;iframe src="https://example.com" width="300" height="200" title="Example iframe"&gt;&lt;/iframe&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
             </div>
         </section>
 
-        <section>
-            <h2><i class="fas fa-laptop-code"></i> HTML Document Structure</h2>
-            <pre><code class="language-html">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Page Title&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;My First Heading&lt;/h1&gt;
-    &lt;p&gt;My first paragraph.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-                </code></pre>
-        </section>
-
         <div class="navigation">
-            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
             <a href="#" class="second-link" data-test="test-2">
                 <i class="fas fa-check-circle"></i>
                 Go Test
@@ -70,7 +103,23 @@
         </div>
     </main>
 
-    <script>document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });</script>
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });
+
+        window.onscroll = () => document.getElementById('scrollToTopBtn').style.display = (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) ? 'flex' : 'none';
+        const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        function copyCode() {
+            const code = document.getElementById('codeToCopy');
+            navigator.clipboard.writeText(code.innerText).then(() => {
+                const btn = document.querySelector('.copy-button');
+                btn.innerHTML = '<i class="fas fa-clipboard-check"></i> Copied!';
+                setTimeout(() => btn.innerHTML = '<i class="far fa-clipboard"></i> Copy', 2000);
+            }).catch(err => console.error('Copy failed:', err));
+        }
+    </script>
 </body>
 
 </html>

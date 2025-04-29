@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>Lesson 1: HTML Structure</h1>
+        <h1><i class="fas fa-code"></i> Lesson 1: HTML Structure</h1>
         <p>Learn the basic structure of HTML and how to create your web page.</p>
     </header>
 
@@ -39,7 +39,11 @@
             </ul>
 
             <h4>Example of HTML Code</h4>
-            <pre>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -65,6 +69,7 @@
     
   &lt;/body&gt;
 &lt;/html&gt;</pre>
+            </div>
         </section>
 
         <div class="navigation">
@@ -83,6 +88,15 @@
 
         window.onscroll = () => document.getElementById('scrollToTopBtn').style.display = (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) ? 'flex' : 'none';
         const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        function copyCode() {
+            const code = document.getElementById('codeToCopy');
+            navigator.clipboard.writeText(code.innerText).then(() => {
+                const btn = document.querySelector('.copy-button');
+                btn.innerHTML = '<i class="fas fa-clipboard-check"></i> Copied!';
+                setTimeout(() => btn.innerHTML = '<i class="far fa-clipboard"></i> Copy', 2000);
+            }).catch(err => console.error('Copy failed:', err));
+        }
     </script>
 </body>
 
