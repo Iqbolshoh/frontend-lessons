@@ -1,45 +1,45 @@
 [
   {
     "question": "What tag is used to create an ordered list?",
-    "option-1": "<ul>",
-    "option-2": "<ol>",
-    "option-3": "<li>",
-    "option-4": "<list>"
-  },
-  {
-    "question": "What tag is used to create an unordered list?",
     "option-1": "<ol>",
     "option-2": "<ul>",
     "option-3": "<li>",
     "option-4": "<list>"
   },
   {
+    "question": "What tag is used to create an unordered list?",
+    "option-1": "<ul>",
+    "option-2": "<ol>",
+    "option-3": "<li>",
+    "option-4": "<list>"
+  },
+  {
     "question": "In an ordered list, what does the <li> tag represent?",
-    "option-1": "The list itself",
-    "option-2": "A list item",
+    "option-1": "A list item",
+    "option-2": "The list itself",
     "option-3": "The list container",
     "option-4": "A link"
   },
   {
     "question": "Which of the following is the default bullet style for unordered lists?",
-    "option-1": "Square",
-    "option-2": "Circle",
-    "option-3": "Disc",
+    "option-1": "Disc",
+    "option-2": "Square",
+    "option-3": "Circle",
     "option-4": "Diamond"
   },
   {
     "question": "Which type attribute value makes an ordered list display lowercase Roman numerals?",
-    "option-1": "1",
-    "option-2": "i",
+    "option-1": "i",
+    "option-2": "1",
     "option-3": "A",
     "option-4": "a"
   },
   {
     "question": "How can you customize the type of bullets in an unordered list?",
-    "option-1": "type attribute",
-    "option-2": "custom attribute",
-    "option-3": "bullet-type attribute",
-    "option-4": "list-style-type attribute"
+    "option-1": "list-style-type attribute",
+    "option-2": "type attribute",
+    "option-3": "custom attribute",
+    "option-4": "bullet-type attribute"
   },
   {
     "question": "Which tag is used to create a list item inside both ordered and unordered lists?",
@@ -57,15 +57,15 @@
   },
   {
     "question": "What does the <ul> tag create in HTML?",
-    "option-1": "An ordered list",
-    "option-2": "A navigation list",
-    "option-3": "An unordered (bulleted) list",
+    "option-1": "An unordered (bulleted) list",
+    "option-2": "An ordered list",
+    "option-3": "A navigation list",
     "option-4": "A table"
   },
   {
     "question": "What is the default list style for an unordered list?",
-    "option-1": "Square bullets",
-    "option-2": "Disc bullets",
+    "option-1": "Disc bullets",
+    "option-2": "Square bullets",
     "option-3": "Circle bullets",
     "option-4": "None"
   },
@@ -78,15 +78,15 @@
   },
   {
     "question": "How do you display an ordered list with lowercase letters?",
-    "option-1": "<ol type='1'>",
-    "option-2": "<ol type='a'>",
+    "option-1": "<ol type='a'>",
+    "option-2": "<ol type='1'>",
     "option-3": "<ol type='A'>",
     "option-4": "<ol type='i'>"
   },
   {
     "question": "What is the function of the <li> tag inside both <ul> and <ol> tags?",
-    "option-1": "Defines a list",
-    "option-2": "Defines a list item",
+    "option-1": "Defines a list item",
+    "option-2": "Defines a list",
     "option-3": "Styles the list",
     "option-4": "Marks the list as completed"
   },
@@ -99,21 +99,21 @@
   },
   {
     "question": "Which type attribute for <ol> creates an ordered list with uppercase letters?",
-    "option-1": "i",
-    "option-2": "A",
+    "option-1": "A",
+    "option-2": "i",
     "option-3": "a",
     "option-4": "1"
   },
   {
     "question": "Which tag creates a bulleted list by default?",
-    "option-1": "<ol>",
-    "option-2": "<ul>",
+    "option-1": "<ul>",
+    "option-2": "<ol>",
     "option-3": "<li>",
     "option-4": "<list>"
   },
   {
     "question": "What happens when you use <ol type='square'> in HTML?",
-    "option-1": "It creates a list with square bullets",
+    "option-1": "It is not valid for <ol>, only <ul> supports square bullets",
     "option-2": "It changes the list to ordered",
     "option-3": "It adds icons next to the list",
     "option-4": "It nests the list"
@@ -134,9 +134,9 @@
   },
   {
     "question": "Which type of list is used for displaying items without numbers or bullets?",
-    "option-1": "Ordered list",
-    "option-2": "Unordered list",
-    "option-3": "Neither",
+    "option-1": "Neither",
+    "option-2": "Ordered list",
+    "option-3": "Unordered list",
     "option-4": "Both"
   }
 ]

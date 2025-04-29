@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which HTML tag is used to define a table?",
+    "option-1": "<table>",
+    "option-2": "<div>",
+    "option-3": "<form>",
+    "option-4": "<section>"
+  },
+  {
+    "question": "What tag is used to define a table row?",
+    "option-1": "<tr>",
+    "option-2": "<td>",
+    "option-3": "<th>",
+    "option-4": "<row>"
+  },
+  {
+    "question": "Which tag is used to define a table header cell?",
+    "option-1": "<th>",
+    "option-2": "<td>",
+    "option-3": "<tr>",
+    "option-4": "<thead>"
+  },
+  {
+    "question": "Which tag defines a table data cell?",
+    "option-1": "<td>",
+    "option-2": "<data>",
+    "option-3": "<dd>",
+    "option-4": "<cell>"
+  },
+  {
+    "question": "What attribute is used to merge two columns in a table?",
+    "option-1": "colspan",
+    "option-2": "rowspan",
+    "option-3": "merge",
+    "option-4": "span-col"
+  },
+  {
+    "question": "Which attribute merges two or more rows in a table?",
+    "option-1": "rowspan",
+    "option-2": "colspan",
+    "option-3": "spanrow",
+    "option-4": "merge"
+  },
+  {
+    "question": "What does the border attribute do in a table?",
+    "option-1": "Adds a border around the table and cells",
+    "option-2": "Changes text alignment",
+    "option-3": "Adds spacing between cells",
+    "option-4": "Adds margin"
+  },
+  {
+    "question": "Which CSS property removes double borders between table cells?",
+    "option-1": "border-collapse",
+    "option-2": "padding",
+    "option-3": "margin",
+    "option-4": "text-align"
+  },
+  {
+    "question": "What is the default alignment of text in <th> elements?",
+    "option-1": "Center",
+    "option-2": "Left",
+    "option-3": "Right",
+    "option-4": "Justify"
+  },
+  {
+    "question": "What tag is often used to group header content in a table?",
+    "option-1": "<thead>",
+    "option-2": "<tfoot>",
+    "option-3": "<tbody>",
+    "option-4": "<head>"
+  },
+  {
+    "question": "Which tag is used for grouping the main body of a table?",
+    "option-1": "<tbody>",
+    "option-2": "<tfoot>",
+    "option-3": "<thead>",
+    "option-4": "<main>"
+  },
+  {
+    "question": "What does colspan=\"2\" do?",
+    "option-1": "Spans one cell across two columns",
+    "option-2": "Merges two rows",
+    "option-3": "Adds two columns",
+    "option-4": "Removes two cells"
+  },
+  {
+    "question": "What is the purpose of <tfoot>?",
+    "option-1": "Defines the bottom row for summary or totals",
+    "option-2": "Styles the table",
+    "option-3": "Adds data rows",
+    "option-4": "Displays a note"
+  },
+  {
+    "question": "Which element should come first inside a table?",
+    "option-1": "<thead>",
+    "option-2": "<tfoot>",
+    "option-3": "<tbody>",
+    "option-4": "<tr>"
+  },
+  {
+    "question": "What attribute should you use for spacing within cells?",
+    "option-1": "padding",
+    "option-2": "margin",
+    "option-3": "border",
+    "option-4": "align"
+  },
+  {
+    "question": "Which element adds a title to the table?",
+    "option-1": "<caption>",
+    "option-2": "<head>",
+    "option-3": "<title>",
+    "option-4": "<thead>"
+  },
+  {
+    "question": "How can you apply borders to all table cells using CSS?",
+    "option-1": "border: 1px solid black;",
+    "option-2": "text-align: border;",
+    "option-3": "cell-border: 1px;",
+    "option-4": "border-style: all;"
+  },
+  {
+    "question": "Which property adjusts the space inside table cells?",
+    "option-1": "padding",
+    "option-2": "margin",
+    "option-3": "spacing",
+    "option-4": "align"
+  },
+  {
+    "question": "Which of the following is NOT a valid table element?",
+    "option-1": "<tb>",
+    "option-2": "<td>",
+    "option-3": "<tr>",
+    "option-4": "<th>"
+  },
+  {
+    "question": "Which HTML5 element helps improve table accessibility?",
+    "option-1": "<caption>",
+    "option-2": "<section>",
+    "option-3": "<div>",
+    "option-4": "<main>"
+  }
+]

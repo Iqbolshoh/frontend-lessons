@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 8: Creating Tables</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 8: Creating Tables</h1>
+        <p>Learn how to create tables in HTML and how to use them to organize data.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>Tables in HTML</h2>
+            <p>In HTML, you can create tables using the <code>&lt;table&gt;</code> tag. A table is made up of rows and
+                columns.</p>
+
+            <h3>Basic Table Structure</h3>
+            <p>The basic structure of a table includes:</p>
+            <ul>
+                <li><code>&lt;table&gt;</code> – Defines the table.</li>
+                <li><code>&lt;tr&gt;</code> – Defines a table row.</li>
+                <li><code>&lt;th&gt;</code> – Defines a table header cell.</li>
+                <li><code>&lt;td&gt;</code> – Defines a table data cell.</li>
+            </ul>
+
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy1">
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 3&lt;/td&gt;
+        &lt;td&gt;Data 4&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </pre>
+            </div>
+
+            <h3>Table with Borders</h3>
+            <p>You can add borders to your table using the <code>border</code> attribute or through CSS:</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy2">
+&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </pre>
+            </div>
+
+            <h3>Table with CSS Styling</h3>
+            <p>To style tables more effectively, you can use CSS to add styles like borders, padding, and text
+                alignment:</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy3">
+&lt;style&gt;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+&lt;/style&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </pre>
+            </div>
+
+            <h3>Table with Colspan and Rowspan</h3>
+            <p>You can also merge cells using <code>colspan</code> (to span across columns) and <code>rowspan</code> (to
+                span across rows):</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy4">
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th colspan="2"&gt;Merged Header&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan="2"&gt;Merged Cell&lt;/td&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </pre>
+            </div>
+
+            <p><strong>Note:</strong> HTML tables are useful for displaying data in rows and columns. You can also use CSS to further style and
+                organize your tables.</p>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-8">
+                <i class="fas fa-check-circle"></i>
+                Go Test
+            </a>
+        </div>
+    </main>
+
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>
