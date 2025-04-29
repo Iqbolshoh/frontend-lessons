@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 9: Basic Form Elements</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 9: Basic Form Elements</h1>
+        <p>Learn how to create forms in HTML and understand the basic elements required for building forms.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>HTML Forms</h2>
+            <p>Forms are used to collect user input. They are essential for interactive websites.</p>
+
+            <h3>Basic Structure</h3>
+            <ul>
+                <li><code>&lt;form&gt;</code> – Defines the form.</li>
+                <li><code>&lt;input&gt;</code> – Defines an input field.</li>
+                <li><code>&lt;label&gt;</code> – Describes an input field.</li>
+                <li><code>&lt;textarea&gt;</code> – Multiline text input.</li>
+                <li><code>&lt;select&gt;</code> – Drop-down menu.</li>
+                <li><code>&lt;button&gt;</code> – Button to submit or reset.</li>
+            </ul>
+
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy1">
+&lt;form action="/submit" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;label for="message"&gt;Message:&lt;/label&gt;&lt;br&gt;
+    &lt;textarea id="message" name="message"&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;label for="gender"&gt;Gender:&lt;/label&gt;
+    &lt;select id="gender" name="gender"&gt;
+        &lt;option value="male"&gt;Male&lt;/option&gt;
+        &lt;option value="female"&gt;Female&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+            </div>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-9"><i class="fas fa-check-circle"></i> Go Test</a>
+        </div>
+    </main>
+</body>
+
+</html>

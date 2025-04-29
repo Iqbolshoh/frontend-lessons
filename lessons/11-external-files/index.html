@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 11: Linking External Files</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 11: Linking External Files</h1>
+        <p>Learn how to link external resources like CSS, JavaScript, Font Awesome, and Google Fonts to your webpage.
+        </p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>Why Use External Files?</h2>
+            <p>External files help keep your HTML clean, reusable, and easier to maintain. You can style multiple pages
+                with one CSS file or run scripts with one JS file.</p>
+
+            <h3>1. Linking CSS</h3>
+            <p>Use the <code>&lt;link&gt;</code> tag inside the <code>&lt;head&gt;</code> to include a CSS file:</p>
+            <div class="code-container">
+                <pre>
+&lt;link rel="stylesheet" href="styles.css"&gt;
+</pre>
+            </div>
+
+            <h3>2. Linking JavaScript</h3>
+            <p>Use the <code>&lt;script&gt;</code> tag before the closing <code>&lt;/body&gt;</code> tag:</p>
+            <div class="code-container">
+                <pre>
+&lt;script src="scripts.js"&gt;&lt;/script&gt;
+</pre>
+            </div>
+
+            <h3>3. Using Font Awesome</h3>
+            <p>Font Awesome gives you access to thousands of icons:</p>
+            <div class="code-container">
+                <pre>
+&lt;script src="https://kit.fontawesome.com/your-kit-id.js"&gt;&lt;/script&gt;
+&lt;i class="fas fa-user"&gt;&lt;/i&gt;
+</pre>
+            </div>
+
+            <h3>4. Adding Google Fonts</h3>
+            <p>You can add beautiful fonts by copying the link from Google Fonts:</p>
+            <div class="code-container">
+                <pre>
+&lt;link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"&gt;
+
+&lt;style&gt;
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+&lt;/style&gt;
+</pre>
+            </div>
+
+            <p><strong>Tip:</strong> Place CSS links in the <code>&lt;head&gt;</code> and JavaScript links before the
+                closing <code>&lt;/body&gt;</code> tag for better performance.</p>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-11">
+                <i class="fas fa-check-circle"></i> Go Test
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>
