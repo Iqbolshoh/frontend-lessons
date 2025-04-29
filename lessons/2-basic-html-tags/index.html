@@ -2,52 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
-    <link rel="stylesheet" href="../../src/css/lesssons.css">
-    <title>Lesson 2: Basic HTML Tags</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+  <link rel="stylesheet" href="../../src/css/lesssons.css">
+  <title>Lesson 2: Basic HTML Tags</title>
 </head>
 
 <body>
-    <header>
-        <h1><i class="fas fa-code"></i> Lesson 2: Basic HTML Tags</h1>
-        <p>Learn the fundamental HTML tags and how to use them to build your webpage.</p>
-    </header>
+  <header>
+    <h1><i class="fas fa-code"></i> Lesson 2: Basic HTML Tags</h1>
+    <p>Learn the fundamental HTML tags and how to use them to build your webpage.</p>
+  </header>
 
-    <main>
-        <section class="lesson-content">
-            <h2>Important HTML Tags</h2>
-            <p>HTML provides many tags to structure and design a webpage. Here are the most important ones:</p>
+  <main>
+    <section class="lesson-content">
+      <h2>Important HTML Tags</h2>
+      <p>HTML provides many tags to structure and design a webpage. Here are the most important ones:</p>
 
-            <ul>
-                <li><code>&lt;!DOCTYPE html&gt;</code> - Defines the document type and version (HTML5).</li>
-                <li><code>&lt;html&gt;</code> - Root of an HTML document.</li>
-                <li><code>&lt;head&gt;</code> - Meta information like title, links, etc.</li>
-                <li><code>&lt;meta&gt;</code> - Defines metadata (charset, viewport, etc.).</li>
-                <li><code>&lt;title&gt;</code> - Sets the title of the webpage (in browser tab).</li>
-                <li><code>&lt;link&gt;</code> - Links external files like CSS.</li>
-                <li><code>&lt;style&gt;</code> - Adds internal CSS styles.</li>
-                <li><code>&lt;script&gt;</code> - Adds JavaScript code inside HTML.</li>
-                <li><code>&lt;body&gt;</code> - Contains all visible content.</li>
-                <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Heading tags (h1 largest, h6 smallest).</li>
-                <li><code>&lt;p&gt;</code> - Paragraphs of text.</li>
-                <li><code>&lt;br&gt;</code> - Line break.</li>
-                <li><code>&lt;hr&gt;</code> - Horizontal line (divider).</li>
-                <li><code>&lt;a&gt;</code> - Anchor/link to another page or site.</li>
-                <li><code>&lt;img&gt;</code> - Displays images.</li>
-                <li><code>&lt;button&gt;</code> - Clickable button element.</li>
-                <li><code>&lt;div&gt;</code> - Division container to group content.</li>
-                <li><code>&lt;span&gt;</code> - Inline container for text or elements.</li>
-                <li><code>&lt;iframe&gt;</code> - Embeds another webpage inside the current page.</li>
-            </ul>
+      <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code> - Defines the document type and version (HTML5).</li>
+        <li><code>&lt;html&gt;</code> - Root of an HTML document.</li>
+        <li><code>&lt;head&gt;</code> - Meta information like title, links, etc.</li>
+        <li><code>&lt;meta&gt;</code> - Defines metadata (charset, viewport, etc.).</li>
+        <li><code>&lt;title&gt;</code> - Sets the title of the webpage (in browser tab).</li>
+        <li><code>&lt;link&gt;</code> - Links external files like CSS.</li>
+        <li><code>&lt;style&gt;</code> - Adds internal CSS styles.</li>
+        <li><code>&lt;script&gt;</code> - Adds JavaScript code inside HTML.</li>
+        <li><code>&lt;body&gt;</code> - Contains all visible content.</li>
+        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Heading tags (h1 largest, h6 smallest).</li>
+        <li><code>&lt;p&gt;</code> - Paragraphs of text.</li>
+        <li><code>&lt;br&gt;</code> - Line break.</li>
+        <li><code>&lt;hr&gt;</code> - Horizontal line (divider).</li>
+        <li><code>&lt;a&gt;</code> - Anchor/link to another page or site.</li>
+        <li><code>&lt;img&gt;</code> - Displays images.</li>
+        <li><code>&lt;button&gt;</code> - Clickable button element.</li>
+        <li><code>&lt;div&gt;</code> - Division container to group content.</li>
+        <li><code>&lt;span&gt;</code> - Inline container for text or elements.</li>
+        <li><code>&lt;iframe&gt;</code> - Embeds another webpage inside the current page.</li>
+      </ul>
 
-            <h4>Example of Basic HTML Tags</h4>
-            <div class="code-container">
-                <button class="copy-button" onclick="copyCode()">
-                    <i class="far fa-clipboard"></i> Copy
-                </button>
-                <pre id="codeToCopy">
+      <h4>Example of Basic HTML Tags</h4>
+      <div class="code-container">
+        <button class="copy-button" onclick="copyCode()">
+          <i class="far fa-clipboard"></i> Copy
+        </button>
+        <pre id="codeToCopy">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
@@ -55,12 +55,13 @@
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
     &lt;title&gt;Basic HTML Tags Example&lt;/title&gt;
     &lt;link rel="stylesheet" href="styles.css"&gt;
+
     &lt;style&gt;
-      body { font-family: Arial, sans-serif; }
+      body { 
+        font-family: Arial, sans-serif; 
+      }
     &lt;/style&gt;
-    &lt;script&gt;
-      console.log("Welcome to HTML lesson!");
-    &lt;/script&gt;
+
   &lt;/head&gt;
   &lt;body&gt;
 
@@ -89,23 +90,29 @@
 
     &lt;iframe src="https://example.com" width="300" height="200" title="Example iframe"&gt;&lt;/iframe&gt;
 
+    &lt;script&gt;
+      console.log("Welcome to HTML lesson!");
+    &lt;/script&gt;
+
   &lt;/body&gt;
-&lt;/html&gt;</pre>
-            </div>
-        </section>
+&lt;/html&gt;
+</pre>
 
-        <div class="navigation">
-            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
-            <a href="#" class="second-link" data-test="test-2">
-                <i class="fas fa-check-circle"></i>
-                Go Test
-            </a>
-        </div>
-    </main>
+      </div>
+    </section>
 
-    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+    <div class="navigation">
+      <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
+      <a href="#" class="second-link" data-test="test-2">
+        <i class="fas fa-check-circle"></i>
+        Go Test
+      </a>
+    </div>
+  </main>
 
-    <script src="../../src/js/lessons.js"></script>
+  <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+  <script src="../../src/js/lessons.js"></script>
 </body>
 
 </html>

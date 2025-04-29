@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lesssons.css">
+    <title>Lesson 3: HTML Attributes (Style)</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 3: HTML Attributes (Style)</h1>
+        <p>Learn how to use HTML attributes, especially the <code>style</code> attribute to customize your elements.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>What are HTML Attributes?</h2>
+            <p>Attributes provide additional information about HTML elements and are specified in the opening tag.</p>
+
+            <h3>Common HTML Attributes:</h3>
+            <ul>
+                <li><code>href</code> – For links (used with <code>&lt;a&gt;</code> tags)</li>
+                <li><code>src</code> – For image sources (<code>&lt;img&gt;</code> tag)</li>
+                <li><code>alt</code> – Provides text description for images</li>
+                <li><code>style</code> – Allows inline CSS directly in an element</li>
+                <li><code>width</code> and <code>height</code> – Set element size</li>
+                <li><code>background-color</code> – Defines the background color of an element </li>
+                <li><code>border-radius</code> – Rounds the corners of an element </li>
+                <li><code>color</code> – Specifies the text color</li>
+                <li><code>font-size</code> – Specifies the size of the text</li>
+                <li><code>font-weight</code> – Controls the thickness of the text (e.g., <code>bold</code>)</li>
+                <li><code>font-style</code> – Defines italic, normal, or oblique text styles</li>
+                <li><code>text-align</code> – Controls text alignment: left, center, or right</li>
+                <li><code>font-family</code> – Defines the font type (e.g., Arial, Roboto, etc.)</li>
+            </ul>
+
+            <h3>Using the <code>style</code> Attribute in HTML Tags:</h3>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;HTML Attributes (Style)&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p style="color: #444; font-size: 18px; font-family: 'Georgia'; background-color: #f0f0f0; padding: 10px;"&gt;
+    This paragraph is styled with background, font, and color.
+&lt;/p&gt;
+
+&lt;a href="#" style="color: blue; text-decoration: none; font-weight: bold;"&gt;
+    Visit Our Page
+&lt;/a&gt;
+
+&lt;img src="example.jpg" alt="Example Image" style="width: 300px; height: auto; border-radius: 15px; border: 2px solid #ccc;"&gt;
+
+&lt;div style="background-color: lightblue; padding: 20px; border-radius: 10px; width: 400px;"&gt;
+    &lt;p style="margin: 0;"&gt;This is a styled box with padding and border-radius.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;button style="background-color: green; color: white; font-size: 18px; padding: 10px 20px; border: none; border-radius: 5px;"&gt;
+    Click Me
+&lt;/button&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+            </div>
+
+            <p><strong>Note:</strong> You can write multiple CSS properties inside the <code>style</code> attribute by
+                separating them with a semicolon <code>;</code>.</p>
+        </section>
+
+        <nav class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-3">
+                <i class="fas fa-check-circle"></i> Take the Test
+            </a>
+        </nav>
+    </main>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>
