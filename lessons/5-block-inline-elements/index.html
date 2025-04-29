@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 5: Block and Inline Elements</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 5: Block and Inline Elements</h1>
+        <p>Understand the differences between block and inline elements and how to use them effectively.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>What are Block and Inline Elements?</h2>
+            <p>HTML elements can be divided into two categories: block-level elements and inline elements. Block
+                elements take up the full width of their parent container, while inline elements only take up as much
+                width as necessary to contain their content.</p>
+
+            <h3>Block Elements:</h3>
+            <ul>
+                <li><code>&lt;div&gt;</code> – A container used for grouping elements together</li>
+                <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> – Header tags used to define headings</li>
+                <li><code>&lt;p&gt;</code> – Paragraph element used for text blocks</li>
+                <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code> – Lists (unordered and ordered)</li>
+                <li><code>&lt;section&gt;</code> – Defines a section of content</li>
+                <li><code>&lt;article&gt;</code> – Defines an independent piece of content</li>
+                <li><code>&lt;footer&gt;</code> – Represents the footer of a page or section</li>
+            </ul>
+
+            <h3>Inline Elements:</h3>
+            <ul>
+                <li><code>&lt;span&gt;</code> – A container for text or other inline elements</li>
+                <li><code>&lt;a&gt;</code> – Defines a hyperlink</li>
+                <li><code>&lt;img&gt;</code> – Embeds an image</li>
+                <li><code>&lt;strong&gt;</code> – Defines strong emphasis (bold)</li>
+                <li><code>&lt;em&gt;</code> – Defines emphasized text (italic)</li>
+                <li><code>&lt;code&gt;</code> – Displays code snippets</li>
+                <li><code>&lt;abbr&gt;</code> – Represents an abbreviation</li>
+            </ul>
+
+            <h3>Example Usage of Block and Inline Elements:</h3>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Block and Inline Elements&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+  &lt;div style="background-color: lightblue; padding: 20px; border-radius: 10px;"&gt;
+      This is a block-level element.
+  &lt;/div&gt;
+
+  &lt;span style="color: red;"&gt;This is an inline element.&lt;/span&gt;
+
+  &lt;p style="background-color: lightgreen; padding: 10px;"&gt;This is a paragraph element, which is block-level.&lt;/p&gt;
+
+  &lt;a href="https://example.com" style="color: blue;"&gt;Click here&lt;/a&gt;
+
+  &lt;footer style="background-color: gray; padding: 10px;"&gt;
+      This is a block-level footer element.
+  &lt;/footer&gt;
+
+  &lt;article style="background-color: lightyellow; padding: 20px;"&gt;
+      This is an article, a block-level element.
+  &lt;/article&gt;
+
+  &lt;span style="color: green;"&gt;This is another inline element.&lt;/span&gt;
+
+  &lt;p&gt; &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; is the standard markup language for creating web pages. &lt;/p&gt;  
+
+  &lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+            </div>
+
+            <p><strong>Note:</strong> Block elements take up the full width of the container, while inline elements only
+                take up as much width as necessary.</p>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-5">
+                <i class="fas fa-check-circle"></i>
+                Go Test
+            </a>
+        </div>
+    </main>
+
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>

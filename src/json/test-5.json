@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which of the following is a block-level element?",
+    "option-1": "<div>",
+    "option-2": "<span>",
+    "option-3": "<a>",
+    "option-4": "<strong>"
+  },
+  {
+    "question": "Which element is used to define a hyperlink?",
+    "option-1": "<a>",
+    "option-2": "<p>",
+    "option-3": "<img>",
+    "option-4": "<span>"
+  },
+  {
+    "question": "Which of the following is an inline element?",
+    "option-1": "<span>",
+    "option-2": "<div>",
+    "option-3": "<footer>",
+    "option-4": "<h1>"
+  },
+  {
+    "question": "Which tag is used to define a paragraph?",
+    "option-1": "<p>",
+    "option-2": "<section>",
+    "option-3": "<div>",
+    "option-4": "<article>"
+  },
+  {
+    "question": "Which tag creates a list of items with bullets?",
+    "option-1": "<ul>",
+    "option-2": "<ol>",
+    "option-3": "<li>",
+    "option-4": "<dl>"
+  },
+  {
+    "question": "Which one is an example of an inline formatting element?",
+    "option-1": "<em>",
+    "option-2": "<div>",
+    "option-3": "<header>",
+    "option-4": "<aside>"
+  },
+  {
+    "question": "Which tag defines emphasized text?",
+    "option-1": "<em>",
+    "option-2": "<b>",
+    "option-3": "<strong>",
+    "option-4": "<mark>"
+  },
+  {
+    "question": "Which of the following is a block element?",
+    "option-1": "<section>",
+    "option-2": "<abbr>",
+    "option-3": "<img>",
+    "option-4": "<b>"
+  },
+  {
+    "question": "Which tag is used to define an image?",
+    "option-1": "<img>",
+    "option-2": "<figure>",
+    "option-3": "<src>",
+    "option-4": "<media>"
+  },
+  {
+    "question": "Which element highlights text in yellow by default?",
+    "option-1": "<mark>",
+    "option-2": "<strong>",
+    "option-3": "<highlight>",
+    "option-4": "<b>"
+  },
+  {
+    "question": "What does the <abbr> tag do?",
+    "option-1": "Defines an abbreviation",
+    "option-2": "Bold text",
+    "option-3": "Italic text",
+    "option-4": "Blockquote"
+  },
+  {
+    "question": "Which tag is block-level and groups related content?",
+    "option-1": "<div>",
+    "option-2": "<span>",
+    "option-3": "<b>",
+    "option-4": "<abbr>"
+  },
+  {
+    "question": "Which element is used for bold text with strong importance?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<mark>",
+    "option-4": "<em>"
+  },
+  {
+    "question": "Which tag is used to underline text?",
+    "option-1": "<u>",
+    "option-2": "<underline>",
+    "option-3": "<em>",
+    "option-4": "<ins>"
+  },
+  {
+    "question": "Which of the following is a semantic block-level element?",
+    "option-1": "<article>",
+    "option-2": "<abbr>",
+    "option-3": "<code>",
+    "option-4": "<span>"
+  },
+  {
+    "question": "Which element is inline and used for short quotations?",
+    "option-1": "<q>",
+    "option-2": "<blockquote>",
+    "option-3": "<cite>",
+    "option-4": "<quote>"
+  },
+  {
+    "question": "Which tag defines a container for navigation links?",
+    "option-1": "<nav>",
+    "option-2": "<footer>",
+    "option-3": "<aside>",
+    "option-4": "<section>"
+  },
+  {
+    "question": "Which one is NOT an inline element?",
+    "option-1": "<div>",
+    "option-2": "<a>",
+    "option-3": "<span>",
+    "option-4": "<abbr>"
+  },
+  {
+    "question": "Which tag is used for inserting a line break?",
+    "option-1": "<br>",
+    "option-2": "<hr>",
+    "option-3": "<break>",
+    "option-4": "<line>"
+  },
+  {
+    "question": "Which tag is used for preformatted text (respects spacing)?",
+    "option-1": "<pre>",
+    "option-2": "<code>",
+    "option-3": "<text>",
+    "option-4": "<p>"
+  }
+]
