@@ -3,57 +3,57 @@
     {
       "title": "Lesson 1: HTML Structure",
       "description": "Learn the basic structure of HTML and how to create your web page.",
-      "link": "lessons/1-html-structure/index.html"
+      "link": "lessons/1-html-structure/"
     },
     {
       "title": "Lesson 2: Basic HTML Tags",
       "description": "Learn the fundamental HTML tags and how to use them to build your webpage.",
-      "link": "lessons/2-basic-html-tags/index.html"
+      "link": "lessons/2-basic-html-tags/"
     },
     {
       "title": "Lesson 3: HTML Attributes (Style)",
       "description": "Learn how to use HTML attributes, especially the style attribute to customize your elements.",
-      "link": "lessons/3-html-attributes/index.html"
+      "link": "lessons/3-html-attributes/"
     },
     {
       "title": "Lesson 4: ID and Class Usage",
       "description": "Learn the differences between ID and class and how to apply them in styling HTML elements.",
-      "link": "lessons/4-id-class/index.html"
+      "link": "lessons/4-id-class/"
     },
     {
       "title": "Lesson 5: Block and Inline Elements",
       "description": "Understand the differences between block and inline elements and how to use them effectively.",
-      "link": "lessons/5-block-inline-elements/index.html"
+      "link": "lessons/5-block-inline-elements/"
     },
     {
       "title": "Lesson 6: Text Formatting Tags (Bold, Italic, Underline)",
       "description": "Learn how to format text using bold, italic, and underline tags.",
-      "link": "lessons/6-text-formatting/index.html"
+      "link": "lessons/6-text-formatting/"
     },
     {
       "title": "Lesson 7: Lists (Ordered and Unordered)",
       "description": "Learn how to create ordered and unordered lists in HTML.",
-      "link": "lessons/7-lists/index.html"
+      "link": "lessons/7-lists/"
     },
     {
       "title": "Lesson 8: Creating Tables",
       "description": "Learn how to create tables in HTML and how to use them to organize data.",
-      "link": "lessons/8-tables/index.html"
+      "link": "lessons/8-tables/"
     },
     {
       "title": "Lesson 9: Basic Form Elements",
       "description": "Learn how to create forms in HTML and understand the basic elements required for building forms.",
-      "link": "lessons/9-forms/index.html"
+      "link": "lessons/9-forms/"
     },
     {
       "title": "Lesson 10: Semantic HTML Tags",
       "description": "Learn how to use semantic HTML tags to improve the structure and meaning of your webpage.",
-      "link": "lessons/10-semantic-html/index.html"
+      "link": "lessons/10-semantic-html/"
     },
     {
       "title": "Lesson 11: Linking External Files (CSS, JavaScript, Font Awesome, Google Fonts)",
       "description": "Learn how to link external resources like CSS, JavaScript, Font Awesome, and Google Fonts to your webpage.",
-      "link": "lessons/11-external-files/index.html"
+      "link": "lessons/11-external-files/"
     }
   ],
   "css": [],

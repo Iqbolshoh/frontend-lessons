@@ -87,21 +87,8 @@
             })
             .catch(error => console.error('Error loading JSON:', error));
 
-        window.onscroll = function () {
-            const btn = document.getElementById('scrollToTopBtn');
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                btn.style.display = 'flex';
-            } else {
-                btn.style.display = 'none';
-            }
-        };
-
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
+        window.onscroll = () => document.getElementById('scrollToTopBtn').style.display = (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) ? 'flex' : 'none';
+        const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
     </script>
 </body>
 

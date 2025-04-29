@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -101,4 +101,27 @@ pre {
 
 .navigation a i {
   margin-right: 8px;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #4338ca;
+  transform: scale(1.1);
 }

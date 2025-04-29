@@ -76,7 +76,14 @@
         </div>
     </main>
 
-    <script>document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });</script>
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => { const e = document.querySelector('.second-link'), t = e.getAttribute('data-test'), n = btoa(t); e.href = `../../test.html?test=${n}`; });
+
+        window.onscroll = () => document.getElementById('scrollToTopBtn').style.display = (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) ? 'flex' : 'none';
+        const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    </script>
 </body>
 
 </html>
