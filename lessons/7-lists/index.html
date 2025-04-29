@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 7: Lists (Ordered and Unordered)</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 7: Lists (Ordered and Unordered)</h1>
+        <p>Learn how to create ordered and unordered lists in HTML.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>Lists in HTML</h2>
+            <p>HTML provides two types of lists: <strong>ordered lists</strong> and <strong>unordered lists</strong>.
+            </p>
+
+            <h3>Ordered List: <code>&lt;ol&gt;</code></h3>
+            <p>The <code>&lt;ol&gt;</code> tag is used to create ordered (numbered) lists. Each item in the list is
+                wrapped in a <code>&lt;li&gt;</code> tag.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy1">
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+                </pre>
+            </div>
+
+            <h3>Unordered List: <code>&lt;ul&gt;</code></h3>
+            <p>The <code>&lt;ul&gt;</code> tag is used to create unordered (bulleted) lists. Each item is wrapped in a
+                <code>&lt;li&gt;</code> tag.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy2">
+&lt;ul&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+            </div>
+
+            <h3>Ordered List with Custom Types</h3>
+            <p>You can customize the ordered list using the <code>type</code> attribute:</p>
+            <ul>
+                <li><strong>Type "1"</strong>: Numbers (1, 2, 3, etc.)</li>
+                <li><strong>Type "a"</strong>: Lowercase letters (a, b, c, etc.)</li>
+                <li><strong>Type "A"</strong>: Uppercase letters (A, B, C, etc.)</li>
+                <li><strong>Type "i"</strong>: Lowercase Roman numerals (i, ii, iii, etc.)</li>
+                <li><strong>Type "I"</strong>: Uppercase Roman numerals (I, II, III, etc.)</li>
+            </ul>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy4">
+&lt;ol type="a"&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+                </pre>
+            </div>
+
+            <h3>Unordered List with Custom Types</h3>
+            <p>You can also customize the unordered list with the <code>type</code> attribute:</p>
+            <ul>
+                <li><strong>Type "disc"</strong>: Filled circular bullets (default)</li>
+                <li><strong>Type "circle"</strong>: Hollow circular bullets</li>
+                <li><strong>Type "square"</strong>: Square bullets</li>
+            </ul>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy5">
+&lt;ul type="square"&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+            </div>
+
+            <h3>Nested Lists</h3>
+            <p>You can also create lists inside other lists, called <strong>nested lists</strong>. This can be done by
+                placing an <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> list inside a <code>&lt;li&gt;</code> item
+                of another list.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy3">
+&lt;ul&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;
+        Second item with a nested list:
+        &lt;ol&gt;
+            &lt;li&gt;Nested item 1&lt;/li&gt;
+            &lt;li&gt;Nested item 2&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+            </div>
+
+            <h3>Note:</h3>
+            <p>Ordered lists (<code>&lt;ol&gt;</code>) will display items with numbers or letters depending on the type
+                specified. Unordered lists (<code>&lt;ul&gt;</code>) will display items with bullets by default.</p>
+        </section>
+
+        <div class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i>Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-7">
+                <i class="fas fa-check-circle"></i>
+                Go Test
+            </a>
+        </div>
+    </main>
+
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>

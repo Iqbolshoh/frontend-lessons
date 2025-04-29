@@ -138,12 +138,5 @@
     "option-2": "No",
     "option-3": "Only on inline elements",
     "option-4": "Only on headings"
-  },
-  {
-    "question": "Which tag is used for preformatted text (respects spacing)?",
-    "option-1": "<pre>",
-    "option-2": "<code>",
-    "option-3": "<text>",
-    "option-4": "<p>"
   }
 ]
