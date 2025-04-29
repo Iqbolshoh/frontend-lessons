@@ -1,0 +1,142 @@
+[
+  {
+    "quiz": "Which HTML tag is used to define an internal style sheet?",
+    "option-1": "<style>",
+    "option-2": "<script>",
+    "option-3": "<css>",
+    "option-4": "<link>"
+  },
+  {
+    "quiz": "Which attribute is used to specify the source of an image?",
+    "option-1": "src",
+    "option-2": "href",
+    "option-3": "alt",
+    "option-4": "title"
+  },
+  {
+    "quiz": "What does the 'alt' attribute provide for an image?",
+    "option-1": "Text description of the image",
+    "option-2": "Background color",
+    "option-3": "Image border",
+    "option-4": "Image size"
+  },
+  {
+    "quiz": "Which attribute is used to link a web page to a CSS file?",
+    "option-1": "href",
+    "option-2": "style",
+    "option-3": "link",
+    "option-4": "src"
+  },
+  {
+    "quiz": "Which HTML tag is used for defining a hyperlink?",
+    "option-1": "<a>",
+    "option-2": "<button>",
+    "option-3": "<img>",
+    "option-4": "<div>"
+  },
+  {
+    "quiz": "Which CSS property controls the text color?",
+    "option-1": "color",
+    "option-2": "background-color",
+    "option-3": "font-size",
+    "option-4": "border-radius"
+  },
+  {
+    "quiz": "Which attribute specifies the width of an image?",
+    "option-1": "width",
+    "option-2": "height",
+    "option-3": "size",
+    "option-4": "src"
+  },
+  {
+    "quiz": "What does the 'font-family' CSS property do?",
+    "option-1": "Defines the font type",
+    "option-2": "Defines the font size",
+    "option-3": "Defines the text color",
+    "option-4": "Defines the font weight"
+  },
+  {
+    "quiz": "Which HTML tag is used to define an image?",
+    "option-1": "<img>",
+    "option-2": "<a>",
+    "option-3": "<div>",
+    "option-4": "<span>"
+  },
+  {
+    "quiz": "Which attribute is used to change the font size of text in HTML?",
+    "option-1": "font-size",
+    "option-2": "font-style",
+    "option-3": "font-weight",
+    "option-4": "text-align"
+  },
+  {
+    "quiz": "What does the 'border-radius' property do?",
+    "option-1": "Rounds the corners of an element",
+    "option-2": "Changes the background color",
+    "option-3": "Increases the font size",
+    "option-4": "Sets the width of an element"
+  },
+  {
+    "quiz": "Which CSS property controls the thickness of the font?",
+    "option-1": "font-weight",
+    "option-2": "font-size",
+    "option-3": "color",
+    "option-4": "font-style"
+  },
+  {
+    "quiz": "Which property is used to control text alignment in HTML?",
+    "option-1": "text-align",
+    "option-2": "font-size",
+    "option-3": "background-color",
+    "option-4": "border"
+  },
+  {
+    "quiz": "Which HTML attribute is used to link a web page to an external file?",
+    "option-1": "href",
+    "option-2": "src",
+    "option-3": "alt",
+    "option-4": "title"
+  },
+  {
+    "quiz": "What is the correct HTML tag for adding a button?",
+    "option-1": "<button>",
+    "option-2": "<div>",
+    "option-3": "<a>",
+    "option-4": "<input>"
+  },
+  {
+    "quiz": "Which CSS property defines the background color of an element?",
+    "option-1": "background-color",
+    "option-2": "font-size",
+    "option-3": "text-align",
+    "option-4": "border"
+  },
+  {
+    "quiz": "Which CSS property controls the space between text lines?",
+    "option-1": "line-height",
+    "option-2": "margin",
+    "option-3": "padding",
+    "option-4": "font-family"
+  },
+  {
+    "quiz": "Which attribute is used to make text bold?",
+    "option-1": "font-weight",
+    "option-2": "font-style",
+    "option-3": "text-align",
+    "option-4": "font-size"
+  },
+  {
+    "quiz": "Which attribute allows inline CSS to be added directly to an element?",
+    "option-1": "style",
+    "option-2": "href",
+    "option-3": "src",
+    "option-4": "alt"
+  },
+  {
+    "quiz": "Which CSS property is used to define the size of the text?",
+    "option-1": "font-size",
+    "option-2": "color",
+    "option-3": "line-height",
+    "option-4": "font-family"
+  }
+]
