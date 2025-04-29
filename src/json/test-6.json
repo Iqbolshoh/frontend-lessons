@@ -1,0 +1,149 @@
+[
+  {
+    "question": "Which tag is used to make text bold in HTML?",
+    "option-1": "<b>",
+    "option-2": "<i>",
+    "option-3": "<u>",
+    "option-4": "<strong>"
+  },
+  {
+    "question": "What does the <i> tag do in HTML?",
+    "option-1": "Italicizes text",
+    "option-2": "Makes text bold",
+    "option-3": "Underlines text",
+    "option-4": "Makes text larger"
+  },
+  {
+    "question": "Which tag is used to underline text in HTML?",
+    "option-1": "<u>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<strong>"
+  },
+  {
+    "question": "Can the <b>, <i>, and <u> tags be combined to format the same text?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only <b> and <i>",
+    "option-4": "Only <i> and <u>"
+  },
+  {
+    "question": "What tag is used for strong emphasis (typically bold) in HTML?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<em>"
+  },
+  {
+    "question": "Which of these is the correct syntax for using the <u> tag?",
+    "option-1": "<u>This text is underlined</u>",
+    "option-2": "<underline>This text is underlined</underline>",
+    "option-3": "<underlined>This text is underlined</underlined>",
+    "option-4": "<u>This text underlined</u>"
+  },
+  {
+    "question": "Which of these tags is used for emphasizing text?",
+    "option-1": "<em>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Which tag is commonly used to make text bold for a visual effect (not for emphasis)?",
+    "option-1": "<b>",
+    "option-2": "<strong>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "What does the <em> tag do in HTML?",
+    "option-1": "Emphasize the text",
+    "option-2": "Bold the text",
+    "option-3": "Italicize the text",
+    "option-4": "Underline the text"
+  },
+  {
+    "question": "Which tag should be used to emphasize important text, which may be visually bold?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<u>",
+    "option-4": "<i>"
+  },
+  {
+    "question": "Which tag makes the text italicized?",
+    "option-1": "<i>",
+    "option-2": "<b>",
+    "option-3": "<em>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Is it okay to use both <b> and <i> tags on the same text?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only <b> is allowed",
+    "option-4": "Only <i> is allowed"
+  },
+  {
+    "question": "Can the <i> tag be used to make text bold?",
+    "option-1": "No",
+    "option-2": "Yes",
+    "option-3": "Only <b> can do that",
+    "option-4": "Only <strong> can do that"
+  },
+  {
+    "question": "What happens if you use multiple formatting tags (like <b>, <i>, and <u>) on the same text?",
+    "option-1": "They work together and apply all styles",
+    "option-2": "The last tag takes precedence",
+    "option-3": "They overwrite each other",
+    "option-4": "Only the <b> tag works"
+  },
+  {
+    "question": "What is the purpose of the <strong> tag in HTML?",
+    "option-1": "To emphasize text with bold",
+    "option-2": "To underline text",
+    "option-3": "To make text italic",
+    "option-4": "To create a hyperlink"
+  },
+  {
+    "question": "Which tag should be used to style text to show emphasis with a change of meaning?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Which of these is not a text formatting tag?",
+    "option-1": "<div>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Which tag can be used for both inline and block-level elements?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Which of these tags is used to format text to show importance?",
+    "option-1": "<strong>",
+    "option-2": "<b>",
+    "option-3": "<i>",
+    "option-4": "<u>"
+  },
+  {
+    "question": "Can the <b> tag be used on block elements?",
+    "option-1": "Yes",
+    "option-2": "No",
+    "option-3": "Only on inline elements",
+    "option-4": "Only on headings"
+  },
+  {
+    "question": "Which tag is used for preformatted text (respects spacing)?",
+    "option-1": "<pre>",
+    "option-2": "<code>",
+    "option-3": "<text>",
+    "option-4": "<p>"
+  }
+]

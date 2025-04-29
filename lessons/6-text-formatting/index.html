@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://iqbolshoh.uz/favicon.ico">
+    <link rel="stylesheet" href="../../src/css/lessons.css">
+    <title>Lesson 6: Text Formatting Tags</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-code"></i> Lesson 6: Text Formatting Tags</h1>
+        <p>Learn how to format text using bold, italic, underline, and other tags in HTML.</p>
+    </header>
+
+    <main>
+        <section class="lesson-content">
+            <h2>Text Formatting in HTML</h2>
+            <p>In HTML, there are specific tags used to format text such as <code>&lt;b&gt;</code>,
+                <code>&lt;i&gt;</code>,
+                <code>&lt;u&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;s&gt;</code>,
+                <code>&lt;mark&gt;</code>,
+                <code>&lt;small&gt;</code>, <code>&lt;del&gt;</code>, <code>&lt;sub&gt;</code>, and
+                <code>&lt;sup&gt;</code>.
+            </p>
+
+            <h3>Bold Text: <code>&lt;b&gt;</code></h3>
+            <p>The <code>&lt;b&gt;</code> tag is used to make text bold.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy1">
+&lt;b&gt;This text is bold&lt;/b&gt;
+                </pre>
+            </div>
+
+            <h3>Italic Text: <code>&lt;i&gt;</code></h3>
+            <p>The <code>&lt;i&gt;</code> tag is used to italicize text.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy2">
+&lt;i&gt;This text is italic&lt;/i&gt;
+                </pre>
+            </div>
+
+            <h3>Underlined Text: <code>&lt;u&gt;</code></h3>
+            <p>The <code>&lt;u&gt;</code> tag is used to underline text.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy3">
+&lt;u&gt;This text is underlined&lt;/u&gt;
+                </pre>
+            </div>
+
+            <h3>Strong Text: <code>&lt;strong&gt;</code></h3>
+            <p>The <code>&lt;strong&gt;</code> tag is used to make text strongly emphasized, usually appearing in bold.
+            </p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy4">
+&lt;strong&gt;This text is strong&lt;/strong&gt;
+                </pre>
+            </div>
+
+            <h3>Emphasized Text: <code>&lt;em&gt;</code></h3>
+            <p>The <code>&lt;em&gt;</code> tag is used to emphasize text, usually appearing in italic.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy5">
+&lt;em&gt;This text is emphasized&lt;/em&gt;
+                </pre>
+            </div>
+
+            <h3>Strikethrough Text: <code>&lt;s&gt;</code></h3>
+            <p>The <code>&lt;s&gt;</code> tag is used to represent text that is no longer correct or relevant, often
+                shown with a line through it.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy6">
+&lt;s&gt;This text is strikethrough&lt;/s&gt;
+                </pre>
+            </div>
+
+            <h3>Marked Text: <code>&lt;mark&gt;</code></h3>
+            <p>The <code>&lt;mark&gt;</code> tag is used to highlight text, usually with a yellow background.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy7">
+&lt;mark&gt;This text is highlighted&lt;/mark&gt;
+                </pre>
+            </div>
+
+            <h3>Smaller Text: <code>&lt;small&gt;</code></h3>
+            <p>The <code>&lt;small&gt;</code> tag is used to display text in a smaller size.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy8">
+&lt;small&gt;This text is smaller&lt;/small&gt;
+                </pre>
+            </div>
+
+            <h3>Deleted Text: <code>&lt;del&gt;</code></h3>
+            <p>The <code>&lt;del&gt;</code> tag is used to show text that has been deleted or is no longer relevant.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy9">
+&lt;del&gt;This text is deleted&lt;/del&gt;
+                </pre>
+            </div>
+
+            <h3>Subscript Text: <code>&lt;sub&gt;</code></h3>
+            <p>The <code>&lt;sub&gt;</code> tag is used for subscript text, which is usually smaller and positioned
+                below the regular line of text.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy10">
+&lt;sub&gt;This is subscript&lt;/sub&gt;
+                </pre>
+            </div>
+
+            <h3>Superscript Text: <code>&lt;sup&gt;</code></h3>
+            <p>The <code>&lt;sup&gt;</code> tag is used for superscript text, which is usually smaller and positioned
+                above the regular line of text.</p>
+            <div class="code-container">
+                <button class="copy-button" onclick="copyCode()">
+                    <i class="far fa-clipboard"></i> Copy
+                </button>
+                <pre id="codeToCopy11">
+&lt;sup&gt;This is superscript&lt;/sup&gt;
+                </pre>
+            </div>
+
+            <p><strong>Note:</strong> You can combine these tags to apply multiple formatting styles to text.</p>
+        </section>
+
+        <nav class="navigation">
+            <a href="../../"><i class="fas fa-arrow-left"></i> Back to Lessons</a>
+            <a href="#" class="second-link" data-test="test-6">
+                <i class="fas fa-check-circle"></i> Take the Test
+            </a>
+        </nav>
+    </main>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+
+    <script src="../../src/js/lessons.js"></script>
+</body>
+
+</html>

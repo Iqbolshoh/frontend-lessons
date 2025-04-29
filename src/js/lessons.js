@@ -12,17 +12,26 @@ window.onscroll = () =>
       : "none");
 const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
-function copyCode() {
-  const code = document.getElementById("codeToCopy");
+function copyCode(event) {
+  const button = event.target;
+  const code = button.closest(".code-container").querySelector("pre");
+
   navigator.clipboard
     .writeText(code.innerText)
     .then(() => {
-      const btn = document.querySelector(".copy-button");
-      btn.innerHTML = '<i class="fas fa-clipboard-check"></i> Copied!';
+      button.innerHTML = '<i class="fas fa-clipboard-check"></i> Copied!';
       setTimeout(
-        () => (btn.innerHTML = '<i class="far fa-clipboard"></i> Copy'),
+        () => (button.innerHTML = '<i class="far fa-clipboard"></i> Copy'),
         2000
       );
     })
     .catch((err) => console.error("Copy failed:", err));
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const copyButtons = document.querySelectorAll(".copy-button");
+
+  copyButtons.forEach((button) => {
+    button.addEventListener("click", copyCode);
+  });
+});
