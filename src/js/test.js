@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gameCard = document.getElementById("game-card");
   const quizContainer = document.getElementById("quiz-text");
-  const questionNumber = document.getElementById("question-number");
   const optionsContainer = document.getElementById("options");
 
   let lessons = [];
@@ -65,7 +64,9 @@ document.addEventListener("DOMContentLoaded", () => {
       currentLesson["option-4"],
     ];
 
-    optionsContainer.innerHTML = shuffle(options)
+    options = shuffle(options);
+
+    optionsContainer.innerHTML = options
       .map(
         (option) =>
           `<button class="btn btn-outline-primary" onclick="checkAnswer(\`${escapeHTML(
@@ -98,19 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Too many mistakes!",
           text: "Do you want to restart the game?",
           icon: "warning",
-          showCancelButton: true,
-          confirmButtonText: "Yes, restart!",
-          cancelButtonText: "No, continue!",
+          confirmButtonText: "OK, restart!",
+          showCancelButton: false,
           backdrop: false,
           position: "top",
-        }).then((result) => {
-          if (result.isConfirmed) {
-            resetGame();
-          } else {
-            mistakeCount = 2;
-            isProcessing = false;
-            startTimer();
-          }
+        }).then(() => {
+          resetGame();
         });
       } else {
         showResult("Incorrect!", "", "error", () => {
@@ -146,7 +140,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
+    let shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   }
 
   function startTimer() {

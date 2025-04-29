@@ -8,9 +8,9 @@
   },
   {
     "quiz": "Which tag tells the browser it is an HTML5 document?",
-    "option-1": "<html5>",
-    "option-2": "<document>",
-    "option-3": "<!DOCTYPE html>",
+    "option-1": "<!DOCTYPE html>",
+    "option-2": "<html5>",
+    "option-3": "<document>",
     "option-4": "<meta>"
   },
   {
@@ -22,64 +22,64 @@
   },
   {
     "quiz": "Where do you put the meta information about the page?",
-    "option-1": "<meta>",
-    "option-2": "<head>",
+    "option-1": "<head>",
+    "option-2": "<meta>",
     "option-3": "<body>",
     "option-4": "<info>"
   },
   {
     "quiz": "Which tag contains the visible content of the page?",
-    "option-1": "<head>",
-    "option-2": "<meta>",
-    "option-3": "<body>",
+    "option-1": "<body>",
+    "option-2": "<head>",
+    "option-3": "<meta>",
     "option-4": "<title>"
   },
   {
     "quiz": "Which HTML tag is used to create a paragraph?",
-    "option-1": "<h1>",
-    "option-2": "<br>",
-    "option-3": "<p>",
+    "option-1": "<p>",
+    "option-2": "<h1>",
+    "option-3": "<br>",
     "option-4": "<paragraph>"
   },
   {
     "quiz": "Which tag is used to create hyperlinks?",
-    "option-1": "<link>",
-    "option-2": "<href>",
-    "option-3": "<a>",
+    "option-1": "<a>",
+    "option-2": "<link>",
+    "option-3": "<href>",
     "option-4": "<url>"
   },
   {
     "quiz": "Which tag displays an image on the page?",
-    "option-1": "<image>",
-    "option-2": "<pic>",
-    "option-3": "<img>",
+    "option-1": "<img>",
+    "option-2": "<image>",
+    "option-3": "<pic>",
     "option-4": "<photo>"
   },
   {
     "quiz": "Which tag is used to add a clickable button?",
-    "option-1": "<input>",
-    "option-2": "<button>",
+    "option-1": "<button>",
+    "option-2": "<input>",
     "option-3": "<click>",
     "option-4": "<press>"
   },
   {
     "quiz": "Which tag is used to embed another webpage inside your page?",
-    "option-1": "<embed>",
-    "option-2": "<iframe>",
+    "option-1": "<iframe>",
+    "option-2": "<embed>",
     "option-3": "<object>",
     "option-4": "<src>"
   },
   {
     "quiz": "Which tag is used to create a line break?",
-    "option-1": "<hr>",
-    "option-2": "<break>",
-    "option-3": "<lb>",
-    "option-4": "<br>"
+    "option-1": "<br>",
+    "option-2": "<hr>",
+    "option-3": "<break>",
+    "option-4": "<lb>"
   },
   {
     "quiz": "Which tag creates a horizontal line on the page?",
-    "option-1": "<line>",
-    "option-2": "<hr>",
+    "option-1": "<hr>",
+    "option-2": "<line>",
     "option-3": "<br>",
     "option-4": "<hline>"
   },
@@ -92,9 +92,9 @@
   },
   {
     "quiz": "Which tag is used for small size headings?",
-    "option-1": "<h1>",
-    "option-2": "<h3>",
-    "option-3": "<h6>",
+    "option-1": "<h6>",
+    "option-2": "<h1>",
+    "option-3": "<h3>",
     "option-4": "<small>"
   },
   {
@@ -106,16 +106,16 @@
   },
   {
     "quiz": "Which attribute gives alternative text for an image?",
-    "option-1": "href",
-    "option-2": "src",
-    "option-3": "alt",
+    "option-1": "alt",
+    "option-2": "href",
+    "option-3": "src",
     "option-4": "title"
   },
   {
     "quiz": "Which attribute is used to create a link destination?",
-    "option-1": "src",
-    "option-2": "alt",
-    "option-3": "href",
+    "option-1": "href",
+    "option-2": "src",
+    "option-3": "alt",
     "option-4": "link"
   },
   {
@@ -127,16 +127,16 @@
   },
   {
     "quiz": "Which tag is self-closing?",
-    "option-1": "<a>",
-    "option-2": "<img>",
+    "option-1": "<img>",
+    "option-2": "<a>",
     "option-3": "<button>",
     "option-4": "<p>"
   },
   {
     "quiz": "Which tag is mandatory at the beginning of an HTML5 document?",
-    "option-1": "<html>",
-    "option-2": "<head>",
-    "option-3": "<!DOCTYPE html>",
+    "option-1": "<!DOCTYPE html>",
+    "option-2": "<html>",
+    "option-3": "<head>",
     "option-4": "<meta>"
   }
 ]

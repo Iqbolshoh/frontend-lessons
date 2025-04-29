@@ -35,13 +35,6 @@
     "option-4": "<header>"
   },
   {
-    "quiz": "Which tag creates a clickable link?",
-    "option-1": "<a>",
-    "option-2": "<link>",
-    "option-3": "<href>",
-    "option-4": "<url>"
-  },
-  {
     "quiz": "Which tag is used to embed a JavaScript file?",
     "option-1": "<script>",
     "option-2": "<js>",
@@ -119,18 +112,11 @@
     "option-4": "<root>"
   },
   {
-    "quiz": "Which tag holds JavaScript or CSS files externally?",
+    "quiz": "Which tag is used to include external CSS files?",
     "option-1": "<link>",
     "option-2": "<style>",
     "option-3": "<script>",
     "option-4": "<meta>"
-  },
-  {
-    "quiz": "Which tag is used to apply internal CSS?",
-    "option-1": "<style>",
-    "option-2": "<css>",
-    "option-3": "<script>",
-    "option-4": "<design>"
   },
   {
     "quiz": "What does <head> contain?",
@@ -138,5 +124,19 @@
     "option-2": "Visible content",
     "option-3": "Buttons and images",
     "option-4": "Page footer"
+  },
+  {
+    "quiz": "Which tag defines a list item?",
+    "option-1": "<li>",
+    "option-2": "<ul>",
+    "option-3": "<ol>",
+    "option-4": "<item>"
+  },
+  {
+    "quiz": "Which tag is used to define a table row?",
+    "option-1": "<tr>",
+    "option-2": "<td>",
+    "option-3": "<th>",
+    "option-4": "<row>"
   }
 ]
